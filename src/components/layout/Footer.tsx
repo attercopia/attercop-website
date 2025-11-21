@@ -1,10 +1,27 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Linkedin, Twitter } from "lucide-react"
 
 export function Footer() {
     return (
         <footer className="bg-midnight text-pearl py-16 border-t border-white/10">
             <div className="container mx-auto px-4 md:px-8">
+                {/* Logo and Tagline */}
+                <div className="mb-12 pb-8 border-b border-white/10">
+                    <Link href="/" className="inline-block mb-4">
+                        <Image
+                            src="/images/logo-white.png"
+                            alt="Attercop"
+                            width={160}
+                            height={45}
+                            className="h-10 w-auto"
+                        />
+                    </Link>
+                    <p className="text-pearl/60 max-w-md">
+                        AI services built for PE-backed growth. From strategy to deployment, we deliver production-ready AI systems that drive measurable value.
+                    </p>
+                </div>
+
                 {/* Main Footer Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
                     {/* Column 1: Services */}

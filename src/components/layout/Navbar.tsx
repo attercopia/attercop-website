@@ -2,6 +2,7 @@
 
 import * as React from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Menu, X, ChevronDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
@@ -75,7 +76,14 @@ export function Navbar() {
         <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
             <div className="container flex h-16 max-w-screen-2xl items-center justify-between px-4 md:px-8">
                 <Link href="/" className="mr-6 flex items-center space-x-2">
-                    <span className="font-display text-xl font-bold text-deep-teal">Attercop</span>
+                    <Image
+                        src="/images/logo-indigo.png"
+                        alt="Attercop"
+                        width={140}
+                        height={40}
+                        className="h-8 w-auto"
+                        priority
+                    />
                 </Link>
 
                 {/* Desktop Nav */}
