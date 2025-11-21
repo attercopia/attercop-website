@@ -95,15 +95,14 @@ export function Navbar() {
                                 <ChevronDown className="w-3 h-3" />
                             </Link>
 
-                            {/* Dropdown Menu */}
                             {openDropdown === item.title && (
                                 <div className="absolute left-0 top-full pt-2 w-64 animate-in fade-in-0 zoom-in-95">
-                                    <div className="bg-background border border-border/40 rounded-lg shadow-lg p-2">
+                                    <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-2">
                                         {item.items.map((subItem) => (
                                             <Link
                                                 key={subItem.title}
                                                 href={subItem.href}
-                                                className="block px-4 py-2 text-sm text-foreground/80 hover:text-deep-teal hover:bg-accent rounded-md transition-colors"
+                                                className="block px-4 py-2 text-sm text-midnight hover:text-deep-teal hover:bg-pearl rounded-md transition-colors"
                                             >
                                                 {subItem.title}
                                             </Link>
