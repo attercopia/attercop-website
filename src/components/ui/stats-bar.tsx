@@ -6,9 +6,12 @@ interface StatItem {
 interface StatsBarProps {
     stats: StatItem[]
     className?: string
+    variant?: "light" | "dark"
 }
 
-export function StatsBar({ stats, className = "" }: StatsBarProps) {
+export function StatsBar({ stats, className = "", variant = "light" }: StatsBarProps) {
+    const labelColor = variant === "dark" ? "text-white/80" : "text-midnight/60"
+
     return (
         <div className={`grid grid-cols-2 md:grid-cols-4 gap-8 ${className}`}>
             {stats.map((stat, index) => (
@@ -16,7 +19,7 @@ export function StatsBar({ stats, className = "" }: StatsBarProps) {
                     <div className="font-display text-3xl md:text-4xl font-bold text-sea-green mb-2">
                         {stat.value}
                     </div>
-                    <div className="text-sm text-midnight/60 uppercase tracking-wider">
+                    <div className={`text-sm uppercase tracking-wider ${labelColor}`}>
                         {stat.label}
                     </div>
                 </div>

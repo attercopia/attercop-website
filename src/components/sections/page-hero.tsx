@@ -59,7 +59,7 @@ export function PageHero({
 
                     {stats && stats.length > 0 && (
                         <div className="mb-12 bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
-                            <StatsBar stats={stats} />
+                            <StatsBar stats={stats} variant="dark" />
                         </div>
                     )}
 
