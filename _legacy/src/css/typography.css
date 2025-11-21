@@ -1,0 +1,59 @@
+/* Typography */
+body {
+    font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-md);
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+p {
+    margin-bottom: var(--spacing-md);
+    color: var(--color-text-main);
+}
+
+.text-lead {
+    font-size: 1.25rem;
+    color: var(--color-text-muted);
+}
+
+.text-small {
+    font-size: 0.875rem;
+}
+
+.text-mono {
+    font-family: var(--font-mono);
+}
+
+.text-accent {
+    color: var(--color-accent-warm);
+}
+
+.text-center {
+    text-align: center;
+}

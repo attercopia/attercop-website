@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services | Attercop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto+Mono:wght@400;500&family=Source+Sans+Pro:wght@400;600&display=swap"
+        rel="stylesheet">
+  <script type="module" crossorigin src="/assets/main-DqX7UKr3.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-kp4V705f.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container flex justify-between items-center"
+            style="padding-top: var(--spacing-md); padding-bottom: var(--spacing-md);">
+            <a href="/" class="logo"
+                style="font-family: var(--font-heading); font-weight: 700; font-size: 1.5rem; color: var(--color-primary);">Attercop</a>
+            <nav class="md:flex hidden gap-md items-center">
+                <a href="/services/" class="nav-link" style="font-weight: 600;">Services</a>
+                <a href="/pe-firms/" class="nav-link">For PE Firms</a>
+                <a href="/portfolio/" class="nav-link">For Portfolio Co</a>
+                <a href="/about/" class="nav-link">About</a>
+                <a href="/contact/" class="btn btn-primary">Contact Us</a>
+            </nav>
+            <button id="menu-toggle" class="md:hidden btn btn-outline">Menu</button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden container" style="padding-bottom: var(--spacing-md);">
+            <nav class="flex flex-col gap-md">
+                <a href="/services/" class="nav-link">Services</a>
+                <a href="/pe-firms/" class="nav-link">For PE Firms</a>
+                <a href="/portfolio/" class="nav-link">For Portfolio Co</a>
+                <a href="/about/" class="nav-link">About</a>
+                <a href="/contact/" class="btn btn-primary text-center">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section hero" style="padding: var(--spacing-xl) 0;">
+            <div class="container text-center">
+                <h1>Our Services</h1>
+                <p class="text-lead">Comprehensive AI solutions for the private equity lifecycle.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container grid grid-3">
+                <!-- Knowledge Engineering -->
+                <div class="card">
+                    <h3>Knowledge Engineering</h3>
+                    <p>Transform unstructured data into structured knowledge graphs.</p>
+                    <ul
+                        style="margin-top: var(--spacing-md); margin-bottom: var(--spacing-md); list-style: disc; padding-left: 1.5rem;">
+                        <li>Knowledge Extraction</li>
+                        <li>Hybrid RAG Systems</li>
+                        <li>Enterprise Search</li>
+                    </ul>
+                    <a href="/services/knowledge-engineering/" class="btn btn-outline text-small">Explore</a>
+                </div>
+
+                <!-- Agentic AI -->
+                <div class="card">
+                    <h3>Agentic AI Frameworks</h3>
+                    <p>Autonomous agents that execute complex workflows.</p>
+                    <ul
+                        style="margin-top: var(--spacing-md); margin-bottom: var(--spacing-md); list-style: disc; padding-left: 1.5rem;">
+                        <li>Process Automation</li>
+                        <li>Decision Support</li>
+                        <li>Multi-Agent Orchestration</li>
+                    </ul>
+                    <a href="/services/agents/" class="btn btn-outline text-small">Explore</a>
+                </div>
+
+                <!-- AI Strategy -->
+                <div class="card">
+                    <h3>AI Strategy</h3>
+                    <p>Roadmaps aligned with investment theses and exit timelines.</p>
+                    <ul
+                        style="margin-top: var(--spacing-md); margin-bottom: var(--spacing-md); list-style: disc; padding-left: 1.5rem;">
+                        <li>Maturity Assessment</li>
+                        <li>Opportunity Mapping</li>
+                        <li>Buy vs Build Strategy</li>
+                    </ul>
+                    <a href="/services/strategy/" class="btn btn-outline text-small">Explore</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer"
+        style="background-color: var(--color-primary); color: var(--color-bg-white); padding: var(--spacing-xl) 0;">
+        <div class="container grid grid-3">
+            <div>
+                <h3 style="color: var(--color-bg-white);">Attercop</h3>
+                <p style="color: var(--color-bg-light);">Knowledge-Backed, Agentic AI.</p>
+            </div>
+            <div>
+                <h4 style="color: var(--color-bg-white);">Links</h4>
+                <ul class="flex flex-col gap-md">
+                    <li><a href="/services/">Services</a></li>
+                    <li><a href="/pe-firms/">For PE Firms</a></li>
+                    <li><a href="/portfolio/">For Portfolio Companies</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 style="color: var(--color-bg-white);">Contact</h4>
+                <p style="color: var(--color-bg-light);">info@attercop.com</p>
+            </div>
+        </div>
+        <div class="container text-center"
+            style="margin-top: var(--spacing-lg); border-top: 1px solid rgba(255,255,255,0.1); padding-top: var(--spacing-md);">
+            <p class="text-small" style="color: var(--color-bg-light);">&copy; 2025 Attercop Ltd.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
