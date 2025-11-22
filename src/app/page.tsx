@@ -4,6 +4,7 @@ import { Metrics } from "@/components/sections/Metrics"
 import { CaseStudies } from "@/components/sections/CaseStudies"
 import { ServicesGrid } from "@/components/sections/ServicesGrid"
 import { InteractiveDemo } from "@/components/sections/InteractiveDemo"
+import { ClientLogos } from "@/components/sections/ClientLogos"
 import { ThoughtLeadership } from "@/components/sections/ThoughtLeadership"
 import { BottomCTA } from "@/components/sections/BottomCTA"
 
@@ -16,6 +17,7 @@ export default function Home() {
       <CaseStudies />
       <ServicesGrid />
       <InteractiveDemo />
+      <ClientLogos variant="homepage" />
       <ThoughtLeadership />
       <BottomCTA />
     </main>

@@ -296,15 +296,35 @@ Instructions:
 
 ### Layout
 - **Title**: "Trusted by Leading PE Firms and Their Portfolio Companies"
-- **Display**: Logo carousel/grid
-- **Logos**: 8-12 client logos, greyscale
+- **Display**: Logo grid (3 columns desktop, 2 columns mobile)
+- **Logos**: 9 client logos, greyscale
 - **Animation**: Subtle fade in on scroll
+- **Background**: Pearl (#F8FAFB)
+- **Spacing**: 60px horizontal, 40px vertical between logos
 
 ### Logo Specifications
-- Height: 48px
-- Greyscale by default
-- Colour on hover
-- Link to case study where available
+- Height: 60-80px (maintain aspect ratio)
+- Max width: 200px
+- Greyscale filter by default (CSS: grayscale(100%))
+- Full color on hover with subtle scale (1.05x)
+- Link to client website in new tab
+
+### Homepage Client List (9 logos)
+1. **Montagu Private Equity** (montagu.com) - PE Firm
+2. **Growth Capital Partners** (growthcapital.co.uk) - PE Firm
+3. **London City Airport** - Portfolio Company
+4. **Verdantix** - Portfolio Company
+5. **Brightlocal** - Portfolio Company
+6. **Bridewell** - Portfolio Company
+7. **Coriolis Pharma** - Life Sciences
+8. **Envision Pharma** - Life Sciences
+9. **Prime Global** - Life Sciences
+
+### Implementation Notes
+- Store logo assets in `/public/clients/[slug]-logo.svg` or `.png`
+- Use Next.js Image component for optimization
+- Fallback to company name in text if logo unavailable
+- Logos should be fetched from public company websites or provided by clients
 
 ---
 

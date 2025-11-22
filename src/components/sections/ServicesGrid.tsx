@@ -10,6 +10,8 @@ const services = [
         icon: Share2,
         size: "large",
         color: "bg-deep-teal",
+        gradient: "from-deep-teal/80 to-sea-green/80",
+        image: "/images/service-knowledge-graph.png",
         link: "/services/knowledge-engineering"
     },
     {
@@ -18,6 +20,8 @@ const services = [
         icon: Database,
         size: "medium",
         color: "bg-midnight",
+        gradient: "from-midnight/80 to-deep-teal/80",
+        image: "/images/service-rag.png",
         link: "/services/rag"
     },
     {
@@ -26,6 +30,8 @@ const services = [
         icon: Search,
         size: "medium",
         color: "bg-ocean",
+        gradient: "from-ocean/80 to-sea-green/80",
+        image: "/images/service-due-diligence.png",
         link: "/services/due-diligence"
     },
     {
@@ -34,6 +40,8 @@ const services = [
         icon: Zap,
         size: "large",
         color: "bg-sea-green",
+        gradient: "from-sea-green/80 to-deep-teal/80",
+        image: "/images/service-agents.png",
         link: "/services/agents"
     },
     {
@@ -42,6 +50,7 @@ const services = [
         icon: Shield,
         size: "small",
         color: "bg-pearl",
+        gradient: "from-pearl/90 to-deep-teal/20",
         textColor: "text-midnight",
         link: "/services/governance"
     },
@@ -51,6 +60,7 @@ const services = [
         icon: Cpu,
         size: "small",
         color: "bg-amber",
+        gradient: "from-amber/90 to-ocean/30",
         textColor: "text-midnight",
         link: "/services/llm"
     }
@@ -75,15 +85,30 @@ export function ServicesGrid() {
                             href={service.link}
                             key={index}
                             className={`
-                group relative rounded-2xl p-8 overflow-hidden cursor-pointer transition-all duration-300 ease-out hover:shadow-xl
+                group relative rounded-2xl overflow-hidden cursor-pointer transition-all duration-300 ease-out hover:shadow-xl
                 ${service.size === 'large' ? 'md:col-span-2 md:row-span-2' : ''}
                 ${service.size === 'medium' ? 'md:col-span-2 md:row-span-1' : ''}
                 ${service.size === 'small' ? 'md:col-span-1 md:row-span-1' : ''}
-                ${service.color}
                 ${service.textColor || 'text-white'}
               `}
                         >
-                            <div className="relative z-10 h-full flex flex-col justify-between">
+                            {/* Background Image */}
+                            {service.image && (
+                                <div
+                                    className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                                    style={{ backgroundImage: `url(${service.image})` }}
+                                />
+                            )}
+
+                            {/* Gradient Overlay */}
+                            <div className={`absolute inset-0 bg-gradient-to-br ${service.gradient || service.color}`} />
+
+                            {/* Fallback solid color for items without images */}
+                            {!service.image && (
+                                <div className={`absolute inset-0 ${service.color}`} />
+                            )}
+
+                            <div className="relative z-10 h-full p-8 flex flex-col justify-between">
                                 <div className="flex justify-between items-start">
                                     <service.icon className={`w-8 h-8 ${service.textColor ? 'opacity-100' : 'text-white/80'}`} />
                                     <ArrowRight className={`w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity ${service.textColor || 'text-white'}`} />
