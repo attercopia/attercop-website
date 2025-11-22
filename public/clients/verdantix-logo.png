@@ -1,0 +1,1399 @@
+ <!DOCTYPE html> <html lang="en" > <head> <meta charset="utf-8" /> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <link rel="shortcut icon" href="/ResourcePackages/Verdantix/assets/dist/images/favicon.ico" type="image/x-icon"> <script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-GMG4YJG0ZK"></script> <script type="text/javascript">
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() { dataLayer.push(arguments); }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-GMG4YJG0ZK');
+    </script> <link href="/ResourcePackages/Verdantix/assets/dist/css/main.min.css?v=638984509920000000&amp;package=Verdantix" rel="stylesheet" type="text/css" /> <script>
+        function loadjscssfile(e, t, s, i) { if (e) { if ("js" == s) { var d = document.createElement("script"); d.setAttribute("type", "text/javascript"), d.setAttribute("defer", ""), d.setAttribute("src", t), d.onload = i } else if ("css" == s) { var d = document.createElement("link"); d.setAttribute("rel", "stylesheet"), d.setAttribute("type", "text/css"), d.setAttribute("href", t) } void 0 !== d && document.getElementsByTagName("head")[0].appendChild(d) } } var filesadded = ""; function checkloadjscssfile(e, t, s, i) { -1 == filesadded.indexOf("[" + t + "]") ? (loadjscssfile(e, t, s, i), filesadded += "[" + t + "]") : console.log("file already added!" + t), "function" == typeof i && i() }
+    </script> <title>
+	404
+</title> <meta property="og:title" content="404" /><meta property="og:url" content="https://www.verdantix.com/error-pages/404" /><meta property="og:type" content="website" /><meta property="og:site_name" content="Default" /><script type="text/javascript" src="https://consent.cookiefirst.com/sites/verdantix.com-779c1d80-d5ce-47b2-91c2-59203ce1fe77/consent.js"></script><meta name="Generator" content="Sitefinity 15.2.8425.0 DX" /><link rel="canonical" href="https://www.verdantix.com/error-pages/404" /></head> <body>  <div class="container-fluid"> 
+
+
+ </div> <header class="fixed-top "> 
+
+
+
+
+
+
+<div class="primary-nav">
+    <nav class="navbar navbar-expand-lg pos-relative d-lg-none" id="primaryNav" role="navigation">
+        <div class="container-3xl  " id="">
+            <a class="navbar-brand p-0" href="/" aria-label="Brand Logo">
+                <svg class="">
+                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#logo"></use>
+                </svg>
+            </a>
+            <button class="btn btn-link p-4 ms-auto btn-mobile" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <svg class="w-6 h-6">
+                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#menu-toggle"></use>
+                </svg>
+            </button>
+            <div class="offcanvas offcanvas-end pt-8" data-bs-backdrop="static" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header py-0">
+                    <div class="visually-hidden" id="offcanvasDarkNavbarLabel">Navigation Offcanvas</div>
+                    <a class="navbar-brand text-primary p-0" href="/" aria-label="Brand Logo">
+                        <svg class="">
+                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#logo"></use>
+                        </svg>
+                    </a>
+                    <button type="button" class="btn btn-link bg-white p-4 ms-auto btn-mobile" data-bs-dismiss="offcanvas" aria-label="Close">
+                        <svg class="w-6 h-6">
+                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#close-menu-button"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="offcanvas-body d-flex flex-col col-gap-4 pt-0 pb-lg-14 pb-8">
+                    <ul class="navbar-nav main-nav flex-grow-1 col-gap-4">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/expertise" target="_self">
+                                        Expertise <span class="d-flex px-4 ms-auto">
+                                            <svg class="w-4 h-4">
+                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="nav-item has-child">
+                                    <a class="nav-link nav-link-toggle" href="#">
+                                        Capabilities <span class="d-flex px-4 ms-auto">
+                                            <svg class="w-4 h-4">
+                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <div class="mega-nav px-0">
+                                        <div class="nav-item">
+                                            <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                                <svg class="w-4 h-4 me-4">
+                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                                </svg>Capabilities
+                                            </a>
+                                        </div>
+                                        <div class="container-3xl">
+                                            <div class="row">
+                                                <ul class="navbar-nav">
+                                                            <li class="nav-item has-child">
+                                                                <a class="nav-link nav-link-toggle" href="#">
+                                                                    Research <span class="d-flex px-4 ms-auto">
+                                                                        <svg class="w-4 h-4">
+                                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                                <div class="mega-nav px-0">
+                                                                    <div class="nav-item">
+                                                                        <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                                                            <svg class="w-4 h-4 me-4">
+                                                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                                                            </svg>Research
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="container-3xl">
+                                                                        <div class="row">
+                                                                            <ul class="navbar-nav">
+                                                                                    <li class="nav-item">
+                                                                                        <a class="nav-link" href="/capabilities/research">
+                                                                                            Explore our research<span class="d-flex px-4  ms-auto">
+                                                                                                <svg class="w-4 h-4">
+                                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                                                </svg>
+                                                                                            </span>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="nav-item has-child">
+                                                                <a class="nav-link nav-link-toggle" href="#">
+                                                                    Data <span class="d-flex px-4 ms-auto">
+                                                                        <svg class="w-4 h-4">
+                                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                                <div class="mega-nav px-0">
+                                                                    <div class="nav-item">
+                                                                        <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                                                            <svg class="w-4 h-4 me-4">
+                                                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                                                            </svg>Data
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="container-3xl">
+                                                                        <div class="row">
+                                                                            <ul class="navbar-nav">
+                                                                                    <li class="nav-item">
+                                                                                        <a class="nav-link" href="/capabilities/data">
+                                                                                            Access our data<span class="d-flex px-4  ms-auto">
+                                                                                                <svg class="w-4 h-4">
+                                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                                                </svg>
+                                                                                            </span>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="nav-item has-child">
+                                                                <a class="nav-link nav-link-toggle" href="#">
+                                                                    Advisory <span class="d-flex px-4 ms-auto">
+                                                                        <svg class="w-4 h-4">
+                                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                                <div class="mega-nav px-0">
+                                                                    <div class="nav-item">
+                                                                        <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                                                            <svg class="w-4 h-4 me-4">
+                                                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                                                            </svg>Advisory
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="container-3xl">
+                                                                        <div class="row">
+                                                                            <ul class="navbar-nav">
+                                                                                    <li class="nav-item">
+                                                                                        <a class="nav-link" href="/capabilities/advisory">
+                                                                                            Work with us<span class="d-flex px-4  ms-auto">
+                                                                                                <svg class="w-4 h-4">
+                                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                                                </svg>
+                                                                                            </span>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="nav-item has-child">
+                                                                <a class="nav-link nav-link-toggle" href="#">
+                                                                    Summits &amp; Events <span class="d-flex px-4 ms-auto">
+                                                                        <svg class="w-4 h-4">
+                                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                                <div class="mega-nav px-0">
+                                                                    <div class="nav-item">
+                                                                        <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                                                            <svg class="w-4 h-4 me-4">
+                                                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                                                            </svg>Summits &amp; Events
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="container-3xl">
+                                                                        <div class="row">
+                                                                            <ul class="navbar-nav">
+                                                                                    <li class="nav-item">
+                                                                                        <a class="nav-link" href="/capabilities/events">
+                                                                                            Join our events<span class="d-flex px-4  ms-auto">
+                                                                                                <svg class="w-4 h-4">
+                                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                                                </svg>
+                                                                                            </span>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="nav-item has-child">
+                                                                <a class="nav-link nav-link-toggle" href="#">
+                                                                    Vantage Councils <span class="d-flex px-4 ms-auto">
+                                                                        <svg class="w-4 h-4">
+                                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                                <div class="mega-nav px-0">
+                                                                    <div class="nav-item">
+                                                                        <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                                                            <svg class="w-4 h-4 me-4">
+                                                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                                                            </svg>Vantage Councils
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="container-3xl">
+                                                                        <div class="row">
+                                                                            <ul class="navbar-nav">
+                                                                                    <li class="nav-item">
+                                                                                        <a class="nav-link" href="/capabilities/vantage-councils">
+                                                                                            Discover our councils<span class="d-flex px-4  ms-auto">
+                                                                                                <svg class="w-4 h-4">
+                                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                                                </svg>
+                                                                                            </span>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item has-child">
+                                    <a class="nav-link nav-link-toggle" href="#">
+                                        Insights <span class="d-flex px-4 ms-auto">
+                                            <svg class="w-4 h-4">
+                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <div class="mega-nav px-0">
+                                        <div class="nav-item">
+                                            <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                                <svg class="w-4 h-4 me-4">
+                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                                </svg>Insights
+                                            </a>
+                                        </div>
+                                        <div class="container-3xl">
+                                            <div class="row">
+                                                <ul class="navbar-nav">
+                                                            <li class="nav-item has-child">
+                                                                <a class="nav-link nav-link-toggle" href="#">
+                                                                    Blog <span class="d-flex px-4 ms-auto">
+                                                                        <svg class="w-4 h-4">
+                                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                                <div class="mega-nav px-0">
+                                                                    <div class="nav-item">
+                                                                        <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                                                            <svg class="w-4 h-4 me-4">
+                                                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                                                            </svg>Blog
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="container-3xl">
+                                                                        <div class="row">
+                                                                            <ul class="navbar-nav">
+                                                                                    <li class="nav-item">
+                                                                                        <a class="nav-link" href="/insights/blog">
+                                                                                            Read our insights<span class="d-flex px-4  ms-auto">
+                                                                                                <svg class="w-4 h-4">
+                                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                                                </svg>
+                                                                                            </span>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="nav-item has-child">
+                                                                <a class="nav-link nav-link-toggle" href="#">
+                                                                    Webinars <span class="d-flex px-4 ms-auto">
+                                                                        <svg class="w-4 h-4">
+                                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                                <div class="mega-nav px-0">
+                                                                    <div class="nav-item">
+                                                                        <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                                                            <svg class="w-4 h-4 me-4">
+                                                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                                                            </svg>Webinars
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="container-3xl">
+                                                                        <div class="row">
+                                                                            <ul class="navbar-nav">
+                                                                                    <li class="nav-item">
+                                                                                        <a class="nav-link" href="/insights/webinar">
+                                                                                            Watch our webinars<span class="d-flex px-4  ms-auto">
+                                                                                                <svg class="w-4 h-4">
+                                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                                                </svg>
+                                                                                            </span>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="nav-item has-child">
+                                                                <a class="nav-link nav-link-toggle" href="#">
+                                                                    Podcast <span class="d-flex px-4 ms-auto">
+                                                                        <svg class="w-4 h-4">
+                                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                                <div class="mega-nav px-0">
+                                                                    <div class="nav-item">
+                                                                        <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                                                            <svg class="w-4 h-4 me-4">
+                                                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                                                            </svg>Podcast
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="container-3xl">
+                                                                        <div class="row">
+                                                                            <ul class="navbar-nav">
+                                                                                    <li class="nav-item">
+                                                                                        <a class="nav-link" href="/insights/podcast">
+                                                                                            Listen to our podcast<span class="d-flex px-4  ms-auto">
+                                                                                                <svg class="w-4 h-4">
+                                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                                                </svg>
+                                                                                            </span>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="nav-item has-child">
+                                                                <a class="nav-link nav-link-toggle" href="#">
+                                                                    Industry Events <span class="d-flex px-4 ms-auto">
+                                                                        <svg class="w-4 h-4">
+                                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                                <div class="mega-nav px-0">
+                                                                    <div class="nav-item">
+                                                                        <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                                                            <svg class="w-4 h-4 me-4">
+                                                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                                                            </svg>Industry Events
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="container-3xl">
+                                                                        <div class="row">
+                                                                            <ul class="navbar-nav">
+                                                                                    <li class="nav-item">
+                                                                                        <a class="nav-link" href="/insights/event">
+                                                                                            Attend our events<span class="d-flex px-4  ms-auto">
+                                                                                                <svg class="w-4 h-4">
+                                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                                                </svg>
+                                                                                            </span>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="nav-item has-child">
+                                                                <a class="nav-link nav-link-toggle" href="#">
+                                                                    Press &amp; Media <span class="d-flex px-4 ms-auto">
+                                                                        <svg class="w-4 h-4">
+                                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                                <div class="mega-nav px-0">
+                                                                    <div class="nav-item">
+                                                                        <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                                                            <svg class="w-4 h-4 me-4">
+                                                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                                                            </svg>Press &amp; Media
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="container-3xl">
+                                                                        <div class="row">
+                                                                            <ul class="navbar-nav">
+                                                                                    <li class="nav-item">
+                                                                                        <a class="nav-link" href="/insights?indexCatalogue=insights&amp;searchQuery=%20&amp;contentTypes=media">
+                                                                                            See our coverage<span class="d-flex px-4  ms-auto">
+                                                                                                <svg class="w-4 h-4">
+                                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                                                </svg>
+                                                                                            </span>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item has-child">
+                                    <a class="nav-link nav-link-toggle" href="#">
+                                        Inquiry <span class="d-flex px-4 ms-auto">
+                                            <svg class="w-4 h-4">
+                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <div class="mega-nav px-0">
+                                        <div class="nav-item">
+                                            <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                                <svg class="w-4 h-4 me-4">
+                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                                </svg>Inquiry
+                                            </a>
+                                        </div>
+                                        <div class="container-3xl">
+                                            <div class="row">
+                                                <ul class="navbar-nav">
+                                                            <li class="nav-item has-child">
+                                                                <a class="nav-link nav-link-toggle" href="#">
+                                                                    Analyst inquiry <span class="d-flex px-4 ms-auto">
+                                                                        <svg class="w-4 h-4">
+                                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                                <div class="mega-nav px-0">
+                                                                    <div class="nav-item">
+                                                                        <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                                                            <svg class="w-4 h-4 me-4">
+                                                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                                                            </svg>Analyst inquiry
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="container-3xl">
+                                                                        <div class="row">
+                                                                            <ul class="navbar-nav">
+                                                                                    <li class="nav-item">
+                                                                                        <a class="nav-link" href="/inquiry/analyst-inquiry">
+                                                                                            Submit an inquiry<span class="d-flex px-4  ms-auto">
+                                                                                                <svg class="w-4 h-4">
+                                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                                                </svg>
+                                                                                            </span>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="nav-item has-child">
+                                                                <a class="nav-link nav-link-toggle" href="#">
+                                                                    Briefing request <span class="d-flex px-4 ms-auto">
+                                                                        <svg class="w-4 h-4">
+                                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                                <div class="mega-nav px-0">
+                                                                    <div class="nav-item">
+                                                                        <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                                                            <svg class="w-4 h-4 me-4">
+                                                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                                                            </svg>Briefing request
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="container-3xl">
+                                                                        <div class="row">
+                                                                            <ul class="navbar-nav">
+                                                                                    <li class="nav-item">
+                                                                                        <a class="nav-link" href="/inquiry/briefing-request">
+                                                                                            Request a briefing<span class="d-flex px-4  ms-auto">
+                                                                                                <svg class="w-4 h-4">
+                                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                                                </svg>
+                                                                                            </span>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="nav-item has-child">
+                                                                <a class="nav-link nav-link-toggle" href="#">
+                                                                    Book a demo <span class="d-flex px-4 ms-auto">
+                                                                        <svg class="w-4 h-4">
+                                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                                <div class="mega-nav px-0">
+                                                                    <div class="nav-item">
+                                                                        <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                                                            <svg class="w-4 h-4 me-4">
+                                                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                                                            </svg>Book a demo
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="container-3xl">
+                                                                        <div class="row">
+                                                                            <ul class="navbar-nav">
+                                                                                    <li class="nav-item">
+                                                                                        <a class="nav-link" href="/inquiry/book-a-demo">
+                                                                                            Book a demo<span class="d-flex px-4  ms-auto">
+                                                                                                <svg class="w-4 h-4">
+                                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                                                </svg>
+                                                                                            </span>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="nav-item has-child">
+                                                                <a class="nav-link nav-link-toggle" href="#">
+                                                                    Contact <span class="d-flex px-4 ms-auto">
+                                                                        <svg class="w-4 h-4">
+                                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                                <div class="mega-nav px-0">
+                                                                    <div class="nav-item">
+                                                                        <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                                                            <svg class="w-4 h-4 me-4">
+                                                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                                                            </svg>Contact
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="container-3xl">
+                                                                        <div class="row">
+                                                                            <ul class="navbar-nav">
+                                                                                    <li class="nav-item">
+                                                                                        <a class="nav-link" href="/inquiry/contact">
+                                                                                            Contact us<span class="d-flex px-4  ms-auto">
+                                                                                                <svg class="w-4 h-4">
+                                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                                                </svg>
+                                                                                            </span>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item has-child">
+                                    <a class="nav-link nav-link-toggle" href="#">
+                                        About <span class="d-flex px-4 ms-auto">
+                                            <svg class="w-4 h-4">
+                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <div class="mega-nav px-0">
+                                        <div class="nav-item">
+                                            <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                                <svg class="w-4 h-4 me-4">
+                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                                </svg>About
+                                            </a>
+                                        </div>
+                                        <div class="container-3xl">
+                                            <div class="row">
+                                                <ul class="navbar-nav">
+                                                            <li class="nav-item has-child">
+                                                                <a class="nav-link nav-link-toggle" href="#">
+                                                                    Our firm <span class="d-flex px-4 ms-auto">
+                                                                        <svg class="w-4 h-4">
+                                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                                <div class="mega-nav px-0">
+                                                                    <div class="nav-item">
+                                                                        <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                                                            <svg class="w-4 h-4 me-4">
+                                                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                                                            </svg>Our firm
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="container-3xl">
+                                                                        <div class="row">
+                                                                            <ul class="navbar-nav">
+                                                                                    <li class="nav-item">
+                                                                                        <a class="nav-link" href="/about/our-firm">
+                                                                                            Learn about us<span class="d-flex px-4  ms-auto">
+                                                                                                <svg class="w-4 h-4">
+                                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                                                </svg>
+                                                                                            </span>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="nav-item has-child">
+                                                                <a class="nav-link nav-link-toggle" href="#">
+                                                                    Our team <span class="d-flex px-4 ms-auto">
+                                                                        <svg class="w-4 h-4">
+                                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                                <div class="mega-nav px-0">
+                                                                    <div class="nav-item">
+                                                                        <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                                                            <svg class="w-4 h-4 me-4">
+                                                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                                                            </svg>Our team
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="container-3xl">
+                                                                        <div class="row">
+                                                                            <ul class="navbar-nav">
+                                                                                    <li class="nav-item">
+                                                                                        <a class="nav-link" href="/about/our-team">
+                                                                                            Meet our team<span class="d-flex px-4  ms-auto">
+                                                                                                <svg class="w-4 h-4">
+                                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                                                </svg>
+                                                                                            </span>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="nav-item has-child">
+                                                                <a class="nav-link nav-link-toggle" href="#">
+                                                                    Sustainability <span class="d-flex px-4 ms-auto">
+                                                                        <svg class="w-4 h-4">
+                                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                                <div class="mega-nav px-0">
+                                                                    <div class="nav-item">
+                                                                        <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                                                            <svg class="w-4 h-4 me-4">
+                                                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                                                            </svg>Sustainability
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="container-3xl">
+                                                                        <div class="row">
+                                                                            <ul class="navbar-nav">
+                                                                                    <li class="nav-item">
+                                                                                        <a class="nav-link" href="/about/sustainability">
+                                                                                            See our commitment<span class="d-flex px-4  ms-auto">
+                                                                                                <svg class="w-4 h-4">
+                                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-right"></use>
+                                                                                                </svg>
+                                                                                            </span>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                    </ul>
+                        <div class="fs-2 lh-1 fw-medium "> Discover research that fits your unique needs </div>
+                        <ul class="navbar-nav d-flex flex-col gap-3 mt-8">
+                            <li class="nav-item has-child border-0 p-0">
+                                <a class="nav-link-toggle btn btn-primary px-12" href="#">Access Research</a>
+                                <div class="mega-nav px-5 pb-8">
+                                    <div class="nav-item">
+                                        <a class="nav-link back-wrapper fs-sm d-flex align-items-center" href="#">
+                                            <svg class="w-4 h-4 me-4">
+                                                <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-left"></use>
+                                            </svg>Access Research
+                                        </a>
+                                    </div>
+                                    <div class="container-3xl px-0">
+                                        <div class="row gy-4">
+                                            <div class="col">
+                                                <div class="nav-card border-top border-16 p-5 p-lg-12 d-flex flex-col bg-light border-primary">
+                                                    <div class="h5 m-0"> Technology & services providers </div>
+                                                    <div class="content mt-8 d-none d-lg-block">
+                                                        For technology provider and services firm leaders. It provides access to the entire Verdantix library of reports and webinars and is an ideal tool for those involved in product, strategy and marketing
+                                                        roles.
+                                                    </div>
+                                                    <a href="/client-portal" class="btn btn-outline-primary mt-6 mt-lg-auto justify-content-between">
+                                                        Visit the Client Portal
+                                                        <svg class="" width="16" height="16">
+                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                        </svg>
+                                                    </a>
+                                                    <div class="d-flex flex-nowrap gap-2 mt-4">
+                                                        <a href="/client-portal/register" class="btn btn-white flex-grow-1">
+                                                            Register
+                                                        </a> <a href="/client-portal/login" class="btn btn-white flex-grow-1">
+                                                            Login
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="nav-card border-top border-16 p-5 p-lg-12 d-flex flex-col bg-light border-lime">
+                                                    <div class="h5 m-0">Technology & services buyers</div>
+                                                    <div class="content mt-8 d-none d-lg-block">
+                                                        Vantage is designed for&nbsp;practitioners specializing in EHS, Sustainability, ESG, Net Zero, Real Estate, Risk, and Industrial Operations. It's the go-to platform for enterprise buyers of software and services seeking practical, actionable insights.
+                                                    </div>
+                                                    <a href="/vantage" class="btn btn-outline-primary mt-6 mt-lg-auto justify-content-between">
+                                                        Visit the Vantage Portal
+                                                        <svg class="" width="16" height="16">
+                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                        </svg>
+                                                    </a>
+                                                    <div class="d-flex flex-nowrap gap-2 mt-4">
+                                                        <a href="/vantage/register" class="btn btn-white flex-grow-1">
+                                                            Register
+                                                        </a> <a href="/vantage/login" class="btn btn-white flex-grow-1">
+                                                            Login
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="nav-card border-top border-16 p-5 p-lg-12 d-flex flex-col bg-light border-secondary">
+                                                    <div class="h5 m-0">Investors & advisors</div>
+                                                    <div class="content mt-8 d-none d-lg-block">
+                                                        Venture provides&nbsp;investing or consulting professionals involved in strategy, M&amp;A and transactions&nbsp;with the insights, analysis and support services they need to succeed. You can use this platform to explore our research and then connect with an adviser to arrange access.
+                                                    </div>
+                                                    <a href="/venture" class="btn btn-outline-primary mt-6 mt-lg-auto justify-content-between">
+                                                        Visit the Venture Portal
+                                                        <svg class="" width="16" height="16">
+                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                        </svg>
+                                                    </a>
+                                                    <div class="d-flex flex-nowrap gap-2 mt-4">
+                                                        <a href="/venture/register" class="btn btn-white flex-grow-1">
+                                                            Register
+                                                        </a> <a href="/venture/login " class="btn btn-white flex-grow-1">
+                                                            Login
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+        <div class="offcanvas offcanvas-top bg-white d-none d-lg-flex overflow-auto research-menu" tabindex="-1" id="offcanvasTopNavAccess" aria-labelledby="offcanvasTopNavAccessLabel">
+            <div class="container-3xl">
+                <div class="offcanvas-header p-0 overflow-visible">
+                    <div class="offcanvas-title h3" id="offcanvasTopNavLabel">Discover research that fits your unique needs</div>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body px-0 py-12 overflow-visible">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="nav-card border-top border-16 p-5 p-lg-12 d-flex flex-col bg-light border-primary">
+                                <div class="h5 m-0"> Technology & services providers </div>
+                                <div class="content mt-8 d-none d-lg-block">
+                                    For technology provider and services firm leaders. It provides access to the entire Verdantix library of reports and webinars and is an ideal tool for those involved in product, strategy and marketing
+                                    roles.
+                                </div>
+                                <a href="/client-portal" class="btn btn-outline-primary mt-6 mt-lg-auto justify-content-between">
+                                    Visit the Client Portal
+                                    <svg class="" width="16" height="16">
+                                        <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                    </svg>
+                                </a>
+                                <div class="d-flex flex-nowrap gap-2 mt-4">
+                                    <a href="/client-portal/register" class="btn btn-white flex-grow-1">
+                                        Register
+                                    </a> <a href="/client-portal/login" class="btn btn-white flex-grow-1">
+                                        Login
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="nav-card border-top border-16 p-5 p-lg-12 d-flex flex-col bg-light border-lime">
+                                <div class="h5 m-0">Technology & services buyers</div>
+                                <div class="content mt-8 d-none d-lg-block">
+                                    Vantage is designed for practitioners specializing in EHS, Sustainability, ESG, Net Zero, Real Estate, Risk, and Industrial Operations. It's the go-to platform for enterprise buyers of software and services seeking practical, actionable insights.
+                                </div>
+                                <a href="/vantage" class="btn btn-outline-primary mt-6 mt-lg-auto justify-content-between">
+                                    Visit the Vantage Portal
+                                    <svg class="" width="16" height="16">
+                                        <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                    </svg>
+                                </a>
+                                <div class="d-flex flex-nowrap gap-2 mt-4">
+                                    <a href="/vantage/register" class="btn btn-white flex-grow-1">
+                                        Register
+                                    </a> <a href="/vantage/login" class="btn btn-white flex-grow-1">
+                                        Login
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="nav-card border-top border-16 p-5 p-lg-12 d-flex flex-col bg-light border-secondary">
+                                <div class="h5 m-0">Investors & advisors</div>
+                                <div class="content mt-8 d-none d-lg-block">
+                                    Venture provides investing or consulting professionals involved in strategy, M&A and transactions with the insights, analysis and support services they need to succeed. You can use this platform to explore our research and then connect with an adviser to arrange access.
+                                </div>
+                                <a href="/venture" class="btn btn-outline-primary mt-6 mt-lg-auto justify-content-between">
+                                    Visit the Venture Portal
+                                    <svg class="" width="16" height="16">
+                                        <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                    </svg>
+                                </a>
+                                <div class="d-flex flex-nowrap gap-2 mt-4">
+                                    <a href="/venture/register" class="btn btn-white flex-grow-1">
+                                        Register
+                                    </a> <a href="/venture/login " class="btn btn-white flex-grow-1">
+                                        Login
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <nav class="navbar navbar-lg d-none d-lg-flex align-items-center" role="navigation">
+        <div class="container-3xl  " id="">
+            <a class="navbar-brand p-0" href="/" aria-label="Brand Logo">
+                <svg class="">
+                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#logo"></use>
+                </svg>
+            </a>
+            <div class="d-flex align-items-lg-center gap-4">
+                <ul class="navbar-nav main-nav navbar-nav--menu d-flex flex-row flex-nowrap justify-content-lg-end flex-grow-1">
+                        <li class="nav-item">
+                                <a class="nav-link" href="/expertise" target="_self">Expertise</a>
+                        </li>
+                        <li class="nav-item">
+                                <a href="/capabilities" class="nav-link">
+                                    Capabilities
+                                    <svg class="w-4 h-4 ms-2">
+                                        <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-down"></use>
+                                    </svg>
+                                </a>
+                                    <div class="offcanvas offcanvas-menu offcanvas-top bg-white d-none d-lg-flex overflow-auto" tabindex="-1">
+                                        <div class="container-3xl">
+                                            <div class="offcanvas-body px-0 pt-0 pb-12 overflow-visible">
+                                                <div class="nav-link-card-wrapper border-top broder-light border-1">
+                                                    <div class="nav-link-card-box">
+                                                            <div class="nav-link-card d-flex flex-col gap-7">
+                                                                <div class="d-flex flex-col gap-3">
+                                                                    <h3 class="nav-link-card-title"><a href="/capabilities/research">Research</a></h3>
+                                                                    <p class="nav-link-card-description">Our research offers unrivalled depth across a wide range of technologies and services.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="d-flex flex-col justify-content-start gap-4">
+                                                                            <a href="/capabilities/research" class="btn btn-link">
+                                                                                Explore our research
+                                                                                <svg class="" width="16" height="16">
+                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                                                </svg>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="nav-link-card d-flex flex-col gap-7">
+                                                                <div class="d-flex flex-col gap-3">
+                                                                    <h3 class="nav-link-card-title"><a href="/capabilities/data">Data</a></h3>
+                                                                    <p class="nav-link-card-description">Instant access to every datapoint from our proprietary research.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="d-flex flex-col justify-content-start gap-4">
+                                                                            <a href="/capabilities/data" class="btn btn-link">
+                                                                                Access our data
+                                                                                <svg class="" width="16" height="16">
+                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                                                </svg>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="nav-link-card d-flex flex-col gap-7">
+                                                                <div class="d-flex flex-col gap-3">
+                                                                    <h3 class="nav-link-card-title"><a href="/capabilities/advisory">Advisory</a></h3>
+                                                                    <p class="nav-link-card-description">Our advisory experts help the world’s most innovative firms tackle critical challenges.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="d-flex flex-col justify-content-start gap-4">
+                                                                            <a href="/capabilities/advisory" class="btn btn-link">
+                                                                                Work with us
+                                                                                <svg class="" width="16" height="16">
+                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                                                </svg>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="nav-link-card d-flex flex-col gap-7">
+                                                                <div class="d-flex flex-col gap-3">
+                                                                    <h3 class="nav-link-card-title"><a href="/capabilities/events">Summits &amp; Events</a></h3>
+                                                                    <p class="nav-link-card-description">Expert speakers from technology, industry, policy, and academia share cutting-edge insights.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="d-flex flex-col justify-content-start gap-4">
+                                                                            <a href="/capabilities/events" class="btn btn-link">
+                                                                                Join our events
+                                                                                <svg class="" width="16" height="16">
+                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                                                </svg>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="nav-link-card d-flex flex-col gap-7">
+                                                                <div class="d-flex flex-col gap-3">
+                                                                    <h3 class="nav-link-card-title"><a href="/capabilities/vantage-councils">Vantage Councils</a></h3>
+                                                                    <p class="nav-link-card-description">Vantage Councils unite influential leaders to shape the future of innovation.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="d-flex flex-col justify-content-start gap-4">
+                                                                            <a href="/capabilities/vantage-councils" class="btn btn-link">
+                                                                                Discover our councils
+                                                                                <svg class="" width="16" height="16">
+                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                                                </svg>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+
+                                                    <div class="nav-banner mt-8 row d-none d-lg-flex bg-primary m-0" data-theme="inverse">
+                                                        <div class="col-4">
+                                                                    <img src="https://www.verdantix.com/images/default-source/products/verdantix-transform-02.jpg?sfvrsn=93defcb0_0"
+                                                                         alt="" loading="lazy" class="img-fluid " />
+
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <div class="px-10 py-8 d-flex flex-col gap-6 justify-content-center h-100">
+                                                                    <div class="fs-xl">Transform 2026 | A collaborative sustainability summit</div>
+                                                                                                                                    <a href="https://transform.verdantix.com/" class="btn btn-link">
+                                                                        Register to attend 
+                                                                        <svg class="" width="16" height="16">
+                                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                                        </svg>
+                                                                    </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </li>
+                        <li class="nav-item">
+                                <a href="/insights" class="nav-link">
+                                    Insights
+                                    <svg class="w-4 h-4 ms-2">
+                                        <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-down"></use>
+                                    </svg>
+                                </a>
+                                    <div class="offcanvas offcanvas-menu offcanvas-top bg-white d-none d-lg-flex overflow-auto" tabindex="-1">
+                                        <div class="container-3xl">
+                                            <div class="offcanvas-body px-0 pt-0 pb-12 overflow-visible">
+                                                <div class="nav-link-card-wrapper border-top broder-light border-1">
+                                                    <div class="nav-link-card-box">
+                                                            <div class="nav-link-card d-flex flex-col gap-7">
+                                                                <div class="d-flex flex-col gap-3">
+                                                                    <h3 class="nav-link-card-title"><a href="/insights/blog">Blog</a></h3>
+                                                                    <p class="nav-link-card-description">Expert perspectives and timely analysis on key market developments.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="d-flex flex-col justify-content-start gap-4">
+                                                                            <a href="/insights/blog" class="btn btn-link">
+                                                                                Read our insights
+                                                                                <svg class="" width="16" height="16">
+                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                                                </svg>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="nav-link-card d-flex flex-col gap-7">
+                                                                <div class="d-flex flex-col gap-3">
+                                                                    <h3 class="nav-link-card-title"><a href="/insights/webinar">Webinars</a></h3>
+                                                                    <p class="nav-link-card-description">Live discussions with industry leaders on critical topics.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="d-flex flex-col justify-content-start gap-4">
+                                                                            <a href="/insights/webinar" class="btn btn-link">
+                                                                                Watch our webinars
+                                                                                <svg class="" width="16" height="16">
+                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                                                </svg>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="nav-link-card d-flex flex-col gap-7">
+                                                                <div class="d-flex flex-col gap-3">
+                                                                    <h3 class="nav-link-card-title"><a href="/insights/podcast">Podcast</a></h3>
+                                                                    <p class="nav-link-card-description">Conversations with change-makers shaping the future.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="d-flex flex-col justify-content-start gap-4">
+                                                                            <a href="/insights/podcast" class="btn btn-link">
+                                                                                Listen to our podcast
+                                                                                <svg class="" width="16" height="16">
+                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                                                </svg>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="nav-link-card d-flex flex-col gap-7">
+                                                                <div class="d-flex flex-col gap-3">
+                                                                    <h3 class="nav-link-card-title"><a href="/insights/event">Industry Events</a></h3>
+                                                                    <p class="nav-link-card-description">Join us at leading events driving innovation and insight.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="d-flex flex-col justify-content-start gap-4">
+                                                                            <a href="/insights/event" class="btn btn-link">
+                                                                                Attend our events
+                                                                                <svg class="" width="16" height="16">
+                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                                                </svg>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="nav-link-card d-flex flex-col gap-7">
+                                                                <div class="d-flex flex-col gap-3">
+                                                                    <h3 class="nav-link-card-title"><a href="/insights/press-release">Press &amp; Media</a></h3>
+                                                                    <p class="nav-link-card-description">See how our research is shaping headlines worldwide.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="d-flex flex-col justify-content-start gap-4">
+                                                                            <a href="/insights?indexCatalogue=insights&amp;searchQuery=%20&amp;contentTypes=media" class="btn btn-link">
+                                                                                See our coverage
+                                                                                <svg class="" width="16" height="16">
+                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                                                </svg>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+
+                                                    <div class="nav-banner mt-8 row d-none d-lg-flex bg-primary m-0" data-theme="inverse">
+                                                        <div class="col-4">
+                                                                    <img src="https://www.verdantix.com/images/default-source/products/verdantix-insights-01.jpg?sfvrsn=bb293b64_0"
+                                                                         alt="" loading="lazy" class="img-fluid " />
+
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <div class="px-10 py-8 d-flex flex-col gap-6 justify-content-center h-100">
+                                                                    <div class="fs-xl">Explore the latest insights, ideas and perspectives from Verdantix experts.</div>
+                                                                                                                                    <a href="/insights" class="btn btn-link">
+                                                                        See our insights
+                                                                        <svg class="" width="16" height="16">
+                                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                                        </svg>
+                                                                    </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </li>
+                        <li class="nav-item">
+                                <a href="/inquiry" class="nav-link">
+                                    Inquiry
+                                    <svg class="w-4 h-4 ms-2">
+                                        <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-down"></use>
+                                    </svg>
+                                </a>
+                                    <div class="offcanvas offcanvas-menu offcanvas-top bg-white d-none d-lg-flex overflow-auto" tabindex="-1">
+                                        <div class="container-3xl">
+                                            <div class="offcanvas-body px-0 pt-0 pb-12 overflow-visible">
+                                                <div class="nav-link-card-wrapper border-top broder-light border-1">
+                                                    <div class="nav-link-card-box">
+                                                            <div class="nav-link-card d-flex flex-col gap-7">
+                                                                <div class="d-flex flex-col gap-3">
+                                                                    <h3 class="nav-link-card-title"><a href="/inquiry/analyst-inquiry">Analyst inquiry</a></h3>
+                                                                    <p class="nav-link-card-description">Support your mission-critical objectives with direct access to our analysts’ expertise.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="d-flex flex-col justify-content-start gap-4">
+                                                                            <a href="/inquiry/analyst-inquiry" class="btn btn-link">
+                                                                                Submit an inquiry
+                                                                                <svg class="" width="16" height="16">
+                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                                                </svg>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="nav-link-card d-flex flex-col gap-7">
+                                                                <div class="d-flex flex-col gap-3">
+                                                                    <h3 class="nav-link-card-title"><a href="/inquiry/briefing-request">Briefing request</a></h3>
+                                                                    <p class="nav-link-card-description">Technology providers are invited to brief our analysts to share strategy, capabilities, and differentiators.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="d-flex flex-col justify-content-start gap-4">
+                                                                            <a href="/inquiry/briefing-request" class="btn btn-link">
+                                                                                Request a briefing
+                                                                                <svg class="" width="16" height="16">
+                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                                                </svg>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="nav-link-card d-flex flex-col gap-7">
+                                                                <div class="d-flex flex-col gap-3">
+                                                                    <h3 class="nav-link-card-title"><a href="/inquiry/book-a-demo">Book a demo</a></h3>
+                                                                    <p class="nav-link-card-description">See our solutions in action by booking a personalised demo with one of our experts.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="d-flex flex-col justify-content-start gap-4">
+                                                                            <a href="/inquiry/book-a-demo" class="btn btn-link">
+                                                                                Book a demo
+                                                                                <svg class="" width="16" height="16">
+                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                                                </svg>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="nav-link-card d-flex flex-col gap-7">
+                                                                <div class="d-flex flex-col gap-3">
+                                                                    <h3 class="nav-link-card-title"><a href="/inquiry/contact">Contact</a></h3>
+                                                                    <p class="nav-link-card-description">For general questions or support, get in touch with the Verdantix team.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="d-flex flex-col justify-content-start gap-4">
+                                                                            <a href="/inquiry/contact" class="btn btn-link">
+                                                                                Contact us
+                                                                                <svg class="" width="16" height="16">
+                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                                                </svg>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                        </li>
+                        <li class="nav-item">
+                                <a href="/about" class="nav-link">
+                                    About
+                                    <svg class="w-4 h-4 ms-2">
+                                        <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#chevron-down"></use>
+                                    </svg>
+                                </a>
+                                    <div class="offcanvas offcanvas-menu offcanvas-top bg-white d-none d-lg-flex overflow-auto" tabindex="-1">
+                                        <div class="container-3xl">
+                                            <div class="offcanvas-body px-0 pt-0 pb-12 overflow-visible">
+                                                <div class="nav-link-card-wrapper border-top broder-light border-1">
+                                                    <div class="nav-link-card-box">
+                                                            <div class="nav-link-card d-flex flex-col gap-7">
+                                                                <div class="d-flex flex-col gap-3">
+                                                                    <h3 class="nav-link-card-title"><a href="/about/our-firm">Our firm</a></h3>
+                                                                    <p class="nav-link-card-description">As we’ve grown, our mission and culture have remained core to everything we do.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="d-flex flex-col justify-content-start gap-4">
+                                                                            <a href="/about/our-firm" class="btn btn-link">
+                                                                                Learn about us
+                                                                                <svg class="" width="16" height="16">
+                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                                                </svg>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="nav-link-card d-flex flex-col gap-7">
+                                                                <div class="d-flex flex-col gap-3">
+                                                                    <h3 class="nav-link-card-title"><a href="/about/our-team">Our team</a></h3>
+                                                                    <p class="nav-link-card-description">Meet the experts driving insight, innovation, and impact for our clients.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="d-flex flex-col justify-content-start gap-4">
+                                                                            <a href="/about/our-team" class="btn btn-link">
+                                                                                Meet our team
+                                                                                <svg class="" width="16" height="16">
+                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                                                </svg>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="nav-link-card d-flex flex-col gap-7">
+                                                                <div class="d-flex flex-col gap-3">
+                                                                    <h3 class="nav-link-card-title"><a href="/about/sustainability">Sustainability</a></h3>
+                                                                    <p class="nav-link-card-description">We’re committed to reducing environmental impact and promoting sustainable practices.</p>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="d-flex flex-col justify-content-start gap-4">
+                                                                            <a href="/about/sustainability" class="btn btn-link">
+                                                                                See our commitment
+                                                                                <svg class="" width="16" height="16">
+                                                                                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                                                </svg>
+                                                                            </a>
+                                                                                                                                            </div>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+
+                                                    <div class="nav-banner mt-8 row d-none d-lg-flex bg-primary m-0" data-theme="inverse">
+                                                        <div class="col-4">
+                                                                    <img src="https://www.verdantix.com/images/default-source/assets/verdantix-careers.png?sfvrsn=d8781d51_1"
+                                                                         alt="" loading="lazy" class="img-fluid " />
+
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <div class="px-10 py-8 d-flex flex-col gap-6 justify-content-center h-100">
+                                                                    <div class="fs-xl">Join a growing team and expand your horizons</div>
+                                                                                                                                    <a href="https://www.verdantix.com/about/our-team/careers" class="btn btn-link">
+                                                                        Career opportunities
+                                                                        <svg class="" width="16" height="16">
+                                                                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                                                                        </svg>
+                                                                    </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </li>
+
+
+                </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <button type="button" class="btn fs-sm nav-btn px-6 px-xl-11" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTopNavAccess" aria-controls="offcanvasTopNavAccess">Access Research</button>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="nav-shadow"></div>
+</div>
+ </header> <main> 
+<section>
+    <div id="Content_C001_Col00" class="section-container sf_colsIn" data-sf-element="Section" data-placeholder-label="Section">
+<div class="error-pages"><video autoplay="" muted="" loop="" class="bg-video"><source src="https://www.verdantix.com/videos/default-source/default-video-library/error_page_fmchwu.mp4" type="video/mp4"></source></video>
+ <div class="error-pages__content"><h1 class="error-pages__title">Sorry!</h1><h2 class="error-pages__subtitle">Page or the file cannot be found (HTTP 404)</h2><div class="row"><div class="col-md-6"><p class="error-pages__description">The page or the file you are
+                    looking for does not exist or may
+                    have been removed.</p></div><div class="col-md-6 d-flex flex-col gap-5 align-items-md-end"><p class="error-pages__info">If you found a broken link from another site or from our site please <a href="/inquiry/contact">contact us</a>.</p><p class="error-pages__info">You may have typed the address incorrectly or you may have used an outdated link.</p></div></div><div class="d-flex flex-md-row flex-col gap-4 mt-14"><a class="btn btn-outline-white" href="/inquiry/contact">Report this page as missing</a>
+ <a href="/" class="btn btn-white" data-sf-ec-immutable="">Browse the homepage</a>
+ </div></div></div></div>
+</section>
+ </main> <footer class="footer"> <div class="section-container"> <div class="bg-wrapper bg-white"> <div class="container-3xl pt-md-10 pb-10 py-lg-15 py-xl-33" id=""> <div class="footer-grid"> <div class="content d-flex flex-col"> <div class="logo"> <svg class=""> <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#logo-thin"></use> </svg> </div> <div class="mt-6 gap-2 d-flex flex-col"> <strong>&copy; 2025 Verdantix. All rights reserved.</strong> <span class="footer-description">
+                                    Verdantix Ltd is registered in England and Wales. Company Registration No. 6493909. Registered offices: Verdantix, Woolyard, 52-56 Bermondsey
+                                    Street, London, SE1 3UD, United Kingdom.
+                                </span> </div> </div> <div class="cyber mt-xxl-1 mb-auto"> <img src="/ResourcePackages/Verdantix/assets/dist/images/cyber-essentials.png" alt="" loading="lazy" class="img-fluid " /> </div> <div class="newsletter py-9 pb-12 pb-md-0 py-md-0 mt-auto d-flex flex-col align-self-stretch align-items-start gap-lg-6 gap-3"> 
+        <div class="h5 m-0">Insights Newsletter</div>
+        <p class="newsletter__description">Stay up to date on the latest industry news, research, blogs, events, and webinars.</p>
+    <div class="email border-bottom border-1 border-primary w-100 mt-md-0 mt-4">
+        <form action="/newsletter" class="d-flex justify-content-between align-items-center py-6 w-100">
+            <input id="contact_email"
+                   type="email"
+                   name="contact_form_email"
+                   class="form-control border-0 shadow-none w-100"
+                   placeholder="Email"
+                   required
+                   style="font-size: 1rem; padding: 0; background: transparent;" />
+            <input type="hidden" id="gclid_field" name="contact_form_gclid" />
+            <button type="submit" class="btn btn-link p-0 border-0 bg-transparent ms-3 d-flex align-items-center">
+                <svg class="h-5 w-5">
+                    <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                </svg>
+            </button>
+        </form>
+    </div>
+ </div> <div class="social-wrapper"> <div class="image"> <div class="img-clipped d-none d-xl-block"> <img src="/ResourcePackages/Verdantix/assets/dist/images/team.jpg" alt="" loading="lazy" class="img-fluid " /> </div> </div> <div class="social d-flex flex-col gap-2 gap-xl-6 align-items-start align-items-xl-end z-1"> <p class="mb-0">Follow us @Verdantix</p> <div class="d-flex gap-4 gap-xl-6"> <a href="https://twitter.com/Verdantix"> <svg class="h-6 w-6"> <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#twitter"></use> </svg> </a> <a href="https://www.linkedin.com/company/verdantix/"> <svg class="h-6 w-6"> <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#linkedin"></use> </svg> </a> </div> </div> </div> <div class="navs py-11 py-md-0"> <div class="d-flex flex-md-col col-gap-4 justify-content-between h-100"> 
+
+<div class="w-50 w-md-100">
+    <ul class="nav flex-col flex-fill gap-6 gap-md-0 justify-content-start footer-nav">
+                <li class="nav-item">
+                    <a href="/expertise" class="nav-link">
+                        Expertise<svg class="h-5 w-5 d-none d-md-block">
+                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/capabilities" class="nav-link">
+                        Capabilities<svg class="h-5 w-5 d-none d-md-block">
+                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/insights" class="nav-link">
+                        Insights<svg class="h-5 w-5 d-none d-md-block">
+                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/inquiry" class="nav-link">
+                        Inquiry<svg class="h-5 w-5 d-none d-md-block">
+                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/about" class="nav-link">
+                        About<svg class="h-5 w-5 d-none d-md-block">
+                            <use href="/ResourcePackages/Verdantix/assets/dist/sprites/icons.svg#arrow-right"></use>
+                        </svg>
+                    </a>
+                </li>
+    </ul>
+</div> 
+
+<div class="legal w-50 w-md-100 flex-wrap flex-col flex-md-row row-gap-6 col-gap-2 justify-content-between mt-md-12">
+            <a href="/citation-policy" class="fw-medium">Citation Policy</a>
+            <a href="/privacy-policy" class="fw-medium">Privacy Policy</a>
+            <a href="/terms-conditions" class="fw-medium">Terms &amp; Conditions</a>
+            <a href="/analyst-inquiry-service" class="fw-medium">Analyst Inquiry Service
+</a>
+            <a href="/anti-slavery-policy" class="fw-medium">Anti-Slavery Policy
+</a>
+            <a href="/cookies" class="fw-medium">Cookies
+</a>
+            <a href="/hiring-policy" class="fw-medium">Hiring Policy</a>
+            <a href="/faq" class="fw-medium">FAQ</a>
+</div>
+
+
+ </div> </div> </div> </div> </div> </div> <!-- Image Clip path --> <svg width="0" height="0" style="position: absolute;"> <defs> <clipPath id="clip-shape" clipPathUnits="objectBoundingBox"> <path d="M0 0.672 0.673 0H1V0.327L0.327 1H0L0 0.672Z" /> </clipPath> </defs> </svg> </footer>     <script src="/ResourcePackages/Verdantix/assets/dist/js/bootstrap.bundle.min.js" type="text/javascript"></script><script src="/ResourcePackages/Verdantix/assets/dist/js/main.js?v=638984509960000000" type="text/javascript"></script> </body> </html>

@@ -16,86 +16,103 @@ const clients: Record<string, Client> = {
   montagu: {
     name: "Montagu Private Equity",
     website: "https://montagu.com",
+    logo: "/clients/montagu-logo.svg",
     category: 'pe'
   },
   'growth-capital': {
     name: "Growth Capital Partners",
     website: "https://growthcapital.co.uk",
+    logo: "/clients/growth-capital-logo.svg",
     category: 'pe'
   },
   'yfm': {
     name: "YFM Equity Partners",
     website: "https://yfmep.com",
+    logo: "/clients/yfm-logo.svg",
     category: 'pe'
   },
   'kkr': {
     name: "KKR",
     website: "https://kkr.com",
+    logo: "/clients/kkr-logo.svg",
     category: 'pe'
   },
   'exponent': {
     name: "Exponent Private Equity",
     website: "https://exponentpe.com",
+    logo: "/clients/exponent-logo.svg",
     category: 'pe'
   },
   'london-city-airport': {
     name: "London City Airport",
     website: "https://londoncityairport.com",
+    logo: "/clients/london-city-airport-logo.svg",
     category: 'business'
   },
   'bridewell': {
     name: "Bridewell",
     website: "https://bridewell.com",
+    logo: "/clients/bridewell-logo.svg",
     category: 'business'
   },
   'brightlocal': {
     name: "BrightLocal",
     website: "https://brightlocal.com",
+    logo: "/clients/brightlocal-logo.svg",
     category: 'business'
   },
   'flint-global': {
     name: "Flint Global",
     website: "https://flintglobal.com",
+    logo: "/clients/flint-global-logo.svg",
     category: 'business'
   },
   'hippo-digital': {
     name: "Hippo Digital",
     website: "https://hippodigital.co.uk",
+    logo: "/clients/hippo-digital-logo.svg",
     category: 'business'
   },
   'plandek': {
     name: "Plandek",
     website: "https://plandek.com",
+    logo: "/clients/plandek-logo.svg",
     category: 'business'
   },
   'verdantix': {
     name: "Verdantix",
     website: "https://verdantix.com",
+    logo: "/clients/verdantix-logo.png",
     category: 'business'
   },
   'xeinadin': {
     name: "Xeinadin",
     website: "https://xeinadin.com",
+    logo: "/clients/xeinadin-logo.svg",
     category: 'business'
   },
   'coriolis-pharma': {
     name: "Coriolis Pharma",
     website: "https://coriolis-pharma.com",
+    logo: "/clients/coriolis-pharma-logo.svg",
     category: 'life-sciences'
   },
   'envision-pharma': {
     name: "Envision Pharma",
     website: "https://envisionpharma.com",
+    logo: "/clients/envision-pharma-logo.svg",
     category: 'life-sciences'
   },
   'prime-global': {
     name: "Prime Global",
     website: "https://primeglobal.com",
+    logo: "/clients/prime-global-logo.svg",
     category: 'life-sciences'
   },
   'ampersand-health': {
     name: "Ampersand Health",
     website: "https://ampersandhealth.co.uk",
+    logo: "/clients/ampersand-health-logo.svg",
     category: 'life-sciences'
   }
 }
