@@ -10,7 +10,7 @@ export function Footer() {
                 <div className="mb-12 pb-8 border-b border-white/10">
                     <Link href="/" className="inline-block mb-4">
                         <Image
-                            src="/images/logo-white.png"
+                            src="/images/logo-white.svg"
                             alt="Attercop"
                             width={160}
                             height={45}

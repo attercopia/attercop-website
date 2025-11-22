@@ -75,7 +75,7 @@ export function ServicesGrid() {
                             href={service.link}
                             key={index}
                             className={`
-                group relative rounded-2xl p-8 overflow-hidden cursor-pointer transition-all duration-300 hover:shadow-xl
+                group relative rounded-2xl p-8 overflow-hidden cursor-pointer transition-all duration-300 ease-out hover:shadow-xl
                 ${service.size === 'large' ? 'md:col-span-2 md:row-span-2' : ''}
                 ${service.size === 'medium' ? 'md:col-span-2 md:row-span-1' : ''}
                 ${service.size === 'small' ? 'md:col-span-1 md:row-span-1' : ''}

@@ -1,27 +1,30 @@
 "use client"
 
 import Link from "next/link"
-import { ArrowDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import dynamic from "next/dynamic"
+import { ArrowDown } from "lucide-react"
+
+const HeroScene = dynamic(() => import("@/components/sections/hero-scene").then(mod => mod.HeroScene), {
+    ssr: false,
+    loading: () => <div className="absolute inset-0 -z-10 bg-midnight" />
+})
 
 export function Hero() {
     return (
         <section className="relative h-screen w-full overflow-hidden bg-midnight text-white flex items-center justify-center">
-            {/* Background Image */}
-            <div
-                className="absolute inset-0 z-0 opacity-20 bg-cover bg-center"
-                style={{ backgroundImage: 'url(/images/hero-background.png)' }}
-            />
+            {/* 3D Scene Background */}
+            <HeroScene />
 
             {/* Background Gradient Mesh */}
-            <div className="absolute inset-0 z-0 opacity-30">
+            <div className="absolute inset-0 z-0 opacity-30 pointer-events-none">
                 <div className="absolute top-[-20%] left-[-10%] w-[50%] h-[50%] rounded-full bg-deep-teal blur-[120px]" />
                 <div className="absolute bottom-[-20%] right-[-10%] w-[50%] h-[50%] rounded-full bg-sea-green blur-[120px]" />
                 <div className="absolute top-[40%] left-[40%] w-[30%] h-[30%] rounded-full bg-ocean blur-[100px]" />
             </div>
 
             {/* Animated Grid/Nodes Background */}
-            <div className="absolute inset-0 z-0 opacity-20"
+            <div className="absolute inset-0 z-0 opacity-20 pointer-events-none"
                 style={{
                     backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(255,255,255,0.15) 2px, transparent 0)',
                     backgroundSize: '40px 40px'

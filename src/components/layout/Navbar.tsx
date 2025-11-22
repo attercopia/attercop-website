@@ -74,7 +74,7 @@ export function Navbar() {
             <div className="container flex h-16 max-w-screen-2xl items-center justify-between px-4 md:px-8">
                 <Link href="/" className="mr-6 flex items-center space-x-2">
                     <Image
-                        src="/images/logo-indigo.png"
+                        src="/images/logo-indigo.svg"
                         alt="Attercop"
                         width={140}
                         height={40}

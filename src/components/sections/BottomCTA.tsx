@@ -9,7 +9,7 @@ export function BottomCTA() {
         <section className="flex flex-col md:flex-row h-auto md:h-[600px] w-full">
             {/* PE Firms Side */}
             <div className="w-full md:w-1/2 bg-midnight relative overflow-hidden group flex items-center justify-center p-12 border-b md:border-b-0 md:border-r border-white/10">
-                <div className="absolute inset-0 bg-deep-teal/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="absolute inset-0 bg-deep-teal/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-out" />
                 <div className="relative z-10 max-w-md text-center md:text-left">
                     <h2 className="font-display text-4xl font-bold text-white mb-6">
                         For PE Firms
@@ -27,7 +27,7 @@ export function BottomCTA() {
 
             {/* Portfolio Companies Side */}
             <div className="w-full md:w-1/2 bg-midnight relative overflow-hidden group flex items-center justify-center p-12">
-                <div className="absolute inset-0 bg-ocean/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="absolute inset-0 bg-ocean/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-out" />
                 <div className="relative z-10 max-w-md text-center md:text-left">
                     <h2 className="font-display text-4xl font-bold text-white mb-6">
                         For Portfolio Companies
