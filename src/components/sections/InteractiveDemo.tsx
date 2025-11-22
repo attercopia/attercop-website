@@ -1,6 +1,7 @@
 "use client"
 
 import dynamic from 'next/dynamic'
+import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 
@@ -73,8 +74,10 @@ export function InteractiveDemo() {
             {/* CTA - Constrained */}
             <div className="container mx-auto px-4">
                 <div className="text-center">
-                    <Button className="bg-coral hover:bg-coral/90 text-white">
-                        Book Full Demo <ArrowRight className="ml-2 w-4 h-4" />
+                    <Button className="bg-coral hover:bg-coral/90 text-white" asChild>
+                        <Link href="/contact">
+                            Book Full Demo <ArrowRight className="ml-2 w-4 h-4" />
+                        </Link>
                     </Button>
                 </div>
             </div>

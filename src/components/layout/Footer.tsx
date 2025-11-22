@@ -80,7 +80,7 @@ export function Footer() {
                         <p className="text-sm text-pearl/40">
                             © {new Date().getFullYear()} Attercop Limited. All rights reserved.
                         </p>
-                        <div className="flex items-center gap-6">
+                        <div className="flex flex-wrap items-center gap-4 md:gap-6">
                             <Link href="/privacy" className="text-sm text-pearl/40 hover:text-pearl transition-colors">
                                 Privacy Policy
                             </Link>
@@ -90,7 +90,18 @@ export function Footer() {
                             <Link href="/cookies" className="text-sm text-pearl/40 hover:text-pearl transition-colors">
                                 Cookie Policy
                             </Link>
-                            <div className="flex items-center gap-3 ml-4">
+                            <button
+                                onClick={() => {
+                                    if (typeof window !== 'undefined') {
+                                        localStorage.removeItem('attercop_cookie_consent')
+                                        window.location.reload()
+                                    }
+                                }}
+                                className="text-sm text-pearl/40 hover:text-pearl transition-colors cursor-pointer"
+                            >
+                                Cookie Settings
+                            </button>
+                            <div className="flex items-center gap-3">
                                 <Link href="mailto:hello@attercop.com" className="text-pearl/40 hover:text-sea-green transition-colors">
                                     <Mail className="w-5 h-5" />
                                 </Link>

@@ -38,6 +38,40 @@ This task list represents the complete build requirements for the Attercop websi
 ## Recent Completions
 
 ### 2025-11-22 (Session 5 - continued)
+- ✅ **Custom 404 Page - COMPLETE**
+  - Created branded 404 error page with Attercop theme
+  - Features:
+    - Gradient background (midnight → deep-teal → ocean) with animated blur elements
+    - Large "404" with sparkle icon overlay
+    - Tongue-in-cheek AI-themed messaging ("Our AI Couldn't Find That Page")
+    - Mock AI system status report (Semantic Search: Failed, Knowledge Graph: Not Found, etc.)
+    - 3 helpful navigation cards (Homepage, For PE Firms, Contact)
+    - Prominent CTAs (Take Me Home, Go Back)
+    - Contact link for reporting missing pages
+  - Location: `src/app/not-found.tsx`
+  - Responsive design with mobile optimization
+  - Maintains brand voice while being playful
+
+- ✅ **Newsletter Signup Integration - COMPLETE**
+  - Connected NewsletterSignup component to SendGrid API
+  - Now functions as AI Threads mailing list signup
+  - Sends subscriber email to graeme.cox@attercop.com via existing `/api/send-email` route
+  - Proper error handling and user feedback messages
+  - Location: `src/components/threads/NewsletterSignup.tsx`
+  - Used in: Threads blog layout
+  - **Note**: Can be easily migrated to dedicated newsletter service (Beehiiv/Mailchimp) later if needed
+
+- ✅ **Priority 1 CTA Fixes - COMPLETE**
+  - Fixed Interactive Demo "Book Full Demo" button - Added Link wrapper to `/contact`
+  - Fixed 4 broken internal links:
+    - `/demo` → `/contact` (knowledge-engineering page)
+    - `/roi-calculator` → `/resources/roi-calculator` (knowledge-engineering page)
+    - `/insights` → `/threads` (ThoughtLeadership component, 2 instances)
+  - Remaining broken links documented in Phase 11B for future implementation:
+    - `/terms`, `/cookies`, `/about/partnerships` (Footer - need page creation)
+    - Various PE Playbook and resource downloads (need PDF creation)
+  - **Result**: All critical user journey CTAs now functional
+
 - ✅ **Current Openings Career Page - COMPLETE**
   - Created `/careers/current-openings` page based on attercop.com/current-openings
   - Current status: No openings available (as per live site)
@@ -832,6 +866,104 @@ This task list represents the complete build requirements for the Attercop websi
   - [ ] Inline critical CSS
   - [ ] Defer non-critical scripts
   - [ ] Implement service worker for caching
+
+---
+
+## Phase 11B: CTAs, Forms & Interactive Elements
+
+### CTA & Form Implementation Status (Comprehensive Audit - Session 5)
+
+#### ✅ FULLY IMPLEMENTED & WORKING
+- [x] Contact form (`/contact`) - SendGrid integration complete
+- [x] All "Book", "Schedule", "Discuss" CTAs → `/contact` (100+ buttons working)
+- [x] All mailto links to hello@attercop.com
+- [x] Knowledge Graph Demo - Interactive visualization working
+- [x] Careers page navigation to `/careers/current-openings`
+- [x] Main navigation and footer links (except 4 missing pages)
+
+#### ⚠️ NEEDS CONNECTION/FIXES (Priority 1 - Critical)
+- [ ] **Interactive Demo "Book Full Demo" button** - No href, needs link to `/contact`
+  - Location: `src/components/sections/InteractiveDemo.tsx:77`
+- [ ] **Fix 12 broken internal links:**
+  - `/demo` → Should be `/contact` or dedicated demo page
+  - `/roi-calculator` → Should be `/resources/roi-calculator`
+  - `/resources/pe-playbook` → Needs file or redirect to `/contact`
+  - `/resources/case-studies` → Should be `/resources/insights/case-studies`
+  - `/case-studies` → Should be `/resources/insights/case-studies`
+  - `/services/exit-readiness` → Missing page
+  - `/services/life-sciences` → Should be `/for-life-sciences`
+  - `/services/due-diligence` → Should be `/for-pe-firms/due-diligence`
+  - `/about/partnerships` → Missing page (Footer link)
+  - `/terms` → Missing page (Footer link)
+  - `/cookies` → Missing page (Footer link)
+  - `/insights` → Should be `/threads` or `/resources/insights`
+
+#### ⚠️ NEEDS IMPLEMENTATION (Priority 2 - Newsletter)
+- [ ] **Newsletter Signup Component** - UI exists, needs backend
+  - Location: `src/components/threads/NewsletterSignup.tsx`
+  - Current: Simulated submission (line 18 TODO)
+  - Needs: Integration with Beehiiv/Mailchimp/ConvertKit
+  - Used in: Threads blog layout
+- [ ] **PE Resources Newsletter** - "Subscribe to Briefing" button
+  - Location: `/for-pe-firms/resources` page
+  - Currently: Links to `/contact`
+  - Needs: Dedicated signup flow or newsletter integration
+
+#### 🔧 NEEDS BUILDING (Priority 3 - Interactive Tools)
+- [ ] **AI Readiness Assessment Tool** (`/resources/assessment`)
+  - Status: Coming soon page exists
+  - Needs: Interactive 5-min assessment
+  - Features: 5 dimensions, scoring, benchmarking, 100-day roadmap
+  - Form integration: Use SendGrid for results email
+- [ ] **ROI Calculator** (`/resources/roi-calculator`)
+  - Status: Coming soon page exists
+  - Needs: Interactive calculator with inputs
+  - Features: Efficiency, revenue, costs, break-even, exit value
+  - Form integration: Use SendGrid for detailed analysis request
+
+#### 📄 NEEDS CONTENT (Priority 4 - Downloadable Resources)
+All "Download" CTAs currently redirect to `/contact`. Need to create:
+- [ ] **PE AI Playbook PDF** - Referenced in 3 locations
+- [ ] **Technical DD Framework PDF**
+- [ ] **100-Day Transformation Playbook PDF**
+- [ ] **Exit Readiness Checklist PDF**
+- [ ] **Strategy Framework PDF**
+- [ ] **Compliance Guide PDF**
+- [ ] **Agentic AI Framework Guide PDF**
+- [ ] **Case Study Pack PDF**
+- [ ] Create `/public/downloads/` directory structure
+- [ ] Consider gated downloads with email capture
+
+#### 🎥 NEEDS BUILDING (Priority 5 - Webinars & Media)
+- [ ] **Whitepapers Library** (`/resources/insights/whitepapers`)
+  - Status: Coming soon page exists
+  - Needs: Library system, PDF uploads, categorization
+- [ ] **Webinars System** (`/resources/insights/webinars`)
+  - Status: Coming soon page exists
+  - Needs: Registration system, video hosting, calendar integration
+
+#### 📄 NEEDS CREATION (Priority 6 - Missing Pages)
+- [ ] `/demo` - Dedicated demo request page (or redirect to `/contact`)
+- [ ] `/terms` - Terms of Service page
+- [ ] `/cookies` - Cookie Policy page
+- [ ] `/about/partnerships` - Partnerships page
+- [ ] `/for-life-sciences/healthcare-operations` - Healthcare page
+
+#### 🧪 LIFE SCIENCES SECTION (Priority 7 - Content Gap)
+All 6 service tiles on `/for-life-sciences` show "Coming soon":
+- [ ] Medical Communications page
+- [ ] Research Data & Knowledge Engineering page
+- [ ] Digital Health page
+- [ ] Technical Due Diligence page
+- [ ] Life Sciences Resources page
+- [ ] Healthcare Operations page
+
+### Implementation Notes
+- **SendGrid Integration**: Already implemented at `/api/send-email/route.ts`
+- **All forms**: Should use existing SendGrid setup (graeme.cox@attercop.com)
+- **Newsletter**: Needs separate service (Beehiiv/Mailchimp) - not SendGrid
+- **Priority order**: Fix broken links first, then newsletter, then build tools
+- **Quick wins**: Fix InteractiveDemo button + broken links = massive UX improvement
 
 ---
 

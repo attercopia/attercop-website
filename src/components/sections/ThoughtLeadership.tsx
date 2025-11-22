@@ -42,7 +42,7 @@ export function ThoughtLeadership() {
                         </p>
                     </div>
                     <Button variant="outline" className="hidden md:flex" asChild>
-                        <Link href="/insights">View All Articles</Link>
+                        <Link href="/threads">View All Articles</Link>
                     </Button>
                 </div>
 
@@ -79,7 +79,7 @@ export function ThoughtLeadership() {
 
                 <div className="mt-8 md:hidden">
                     <Button variant="outline" className="w-full" asChild>
-                        <Link href="/insights">View All Articles</Link>
+                        <Link href="/threads">View All Articles</Link>
                     </Button>
                 </div>
             </div>

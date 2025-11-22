@@ -700,10 +700,10 @@ export default function KnowledgeEngineeringPage() {
                             <Link href="/contact">Schedule Discovery Call</Link>
                         </Button>
                         <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-midnight" asChild>
-                            <Link href="/demo">Request Demo</Link>
+                            <Link href="/contact">Request Demo</Link>
                         </Button>
                         <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-midnight" asChild>
-                            <Link href="/roi-calculator">Download ROI Calculator</Link>
+                            <Link href="/resources/roi-calculator">ROI Calculator</Link>
                         </Button>
                     </div>
 

@@ -15,16 +15,31 @@ export function NewsletterSignup() {
         setMessage("")
 
         try {
-            // TODO: Integrate with actual newsletter service (Beehiiv, Mailchimp, etc.)
-            // For now, we'll simulate a successful subscription
-            await new Promise(resolve => setTimeout(resolve, 1000))
+            // Send AI Threads mailing list signup via SendGrid
+            const response = await fetch("/api/send-email", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    name: "AI Threads Subscriber",
+                    email: email,
+                    message: `New AI Threads mailing list signup from: ${email}`,
+                    subject: "New AI Threads Mailing List Signup"
+                }),
+            })
+
+            if (!response.ok) {
+                throw new Error("Failed to subscribe")
+            }
 
             setStatus("success")
-            setMessage("Thanks for subscribing! Check your email to confirm.")
+            setMessage("Thanks for subscribing to AI Threads! You'll receive monthly insights on AI strategy and innovation.")
             setEmail("")
-        } catch {
+        } catch (error) {
             setStatus("error")
-            setMessage("Something went wrong. Please try again.")
+            setMessage("Something went wrong. Please try again or contact us at hello@attercop.com")
+            console.error("Newsletter signup error:", error)
         }
     }
 

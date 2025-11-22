@@ -3,6 +3,7 @@ import { Sora, Inter, Inter_Tight, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import { CookieConsent } from "@/components/CookieConsent";
 
 const sora = Sora({
   variable: "--font-sora",
@@ -46,6 +47,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <CookieConsent />
       </body>
     </html>
   );
