@@ -30,12 +30,9 @@ export function Footer() {
                         <ul className="space-y-2 text-sm text-pearl/80">
                             <li><Link href="/services/ai-strategy-roadmap" className="hover:text-sea-green transition-colors">AI Strategy & Roadmap</Link></li>
                             <li><Link href="/services/ai-governance" className="hover:text-sea-green transition-colors">AI Governance</Link></li>
-                            <li><Link href="/services/generative-ai" className="hover:text-sea-green transition-colors">Generative AI</Link></li>
-                            <li><Link href="/services/autonomous-ai" className="hover:text-sea-green transition-colors">Autonomous AI</Link></li>
-                            <li><Link href="/services/secure-ai" className="hover:text-sea-green transition-colors">Secure AI</Link></li>
-                            <li><Link href="/services/machine-learning" className="hover:text-sea-green transition-colors">Machine Learning</Link></li>
-                            <li><Link href="/services/knowledge-engineering" className="hover:text-sea-green transition-colors">Graph Technologies</Link></li>
-                            <li><Link href="/services/ai-ops" className="hover:text-sea-green transition-colors">AI Ops</Link></li>
+                            <li><Link href="/services/agentic-ai" className="hover:text-sea-green transition-colors">Agentic AI</Link></li>
+                            <li><Link href="/services/conversational-ai" className="hover:text-sea-green transition-colors">Conversational AI</Link></li>
+                            <li><Link href="/services/knowledge-engineering" className="hover:text-sea-green transition-colors">Knowledge Engineering</Link></li>
                         </ul>
                     </div>
 

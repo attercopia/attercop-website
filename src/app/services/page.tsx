@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export default function ServicesPage() {
     const stats = [
-        { value: "8", label: "Core Services" },
+        { value: "5", label: "Core Services" },
         { value: "50+", label: "Companies Served" },
         { value: "100%", label: "PE-Focused" },
         { value: "3x", label: "Average ROI" }
@@ -36,16 +36,13 @@ export default function ServicesPage() {
                         </p>
                     </div>
 
-                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
                         {[
                             { title: "AI Strategy & Roadmap", href: "/services/ai-strategy-roadmap" },
                             { title: "AI Governance", href: "/services/ai-governance" },
-                            { title: "Generative AI", href: "/services/generative-ai" },
-                            { title: "Autonomous AI", href: "/services/autonomous-ai" },
-                            { title: "Secure AI", href: "/services/secure-ai" },
-                            { title: "Machine Learning", href: "/services/machine-learning" },
-                            { title: "Graph Technologies", href: "/services/knowledge-engineering" },
-                            { title: "AI Ops", href: "/services/ai-ops" }
+                            { title: "Agentic AI", href: "/services/agentic-ai" },
+                            { title: "Conversational AI", href: "/services/conversational-ai" },
+                            { title: "Knowledge Engineering", href: "/services/knowledge-engineering" }
                         ].map((service, index) => (
                             <Link
                                 key={index}
