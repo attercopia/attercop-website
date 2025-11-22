@@ -16,7 +16,7 @@ export default function PortfolioPage() {
 
     const ctas = [
         { text: "Start Your 100-Day Plan", href: "/contact" },
-        { text: "Calculate Your AI ROI", href: "/roi-calculator", variant: "outline" as const }
+        { text: "Calculate Your AI ROI", href: "/resources/roi-calculator", variant: "outline" as const }
     ]
 
     const transformationPhases = [
@@ -702,7 +702,7 @@ export default function PortfolioPage() {
                             </p>
                         </div>
                         <Button variant="outline" className="hidden md:flex" asChild>
-                            <Link href="/case-studies">View All Case Studies</Link>
+                            <Link href="/resources/insights/case-studies">View All Case Studies</Link>
                         </Button>
                     </div>
 
@@ -736,14 +736,14 @@ export default function PortfolioPage() {
                             <h3 className="font-bold mb-2">Get Your Roadmap</h3>
                             <p className="text-sm text-pearl/70 mb-4">Customised 100-day transformation plan</p>
                             <Button variant="outline" className="w-full border-white text-white hover:bg-white hover:text-midnight" asChild>
-                                <Link href="/assessment">Start Assessment</Link>
+                                <Link href="/resources/assessment">Start Assessment</Link>
                             </Button>
                         </div>
                         <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
                             <h3 className="font-bold mb-2">Calculate Your ROI</h3>
                             <p className="text-sm text-pearl/70 mb-4">Model the specific impact on your business</p>
                             <Button variant="outline" className="w-full border-white text-white hover:bg-white hover:text-midnight" asChild>
-                                <Link href="/roi-calculator">Access Calculator</Link>
+                                <Link href="/resources/roi-calculator">Access Calculator</Link>
                             </Button>
                         </div>
                     </div>

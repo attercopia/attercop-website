@@ -1,0 +1,1939 @@
+{
+  "metadata": {
+    "id": "lessons-learned-v1",
+    "name": "Engineering Lessons Learned Database",
+    "description": "A densely connected knowledge graph showing how engineering decisions, patterns, and failures cascade through an organisation",
+    "version": "1.0.0",
+    "created": "2024-11-22",
+    "domain": "software-engineering",
+    "statistics": {
+      "totalNodes": 89,
+      "totalEdges": 156,
+      "density": 0.04
+    }
+  },
+  
+  "nodeTypes": {
+    "incident": {
+      "label": "Incident",
+      "color": "#DC2626",
+      "icon": "🚨",
+      "defaultSize": 30
+    },
+    "root_cause": {
+      "label": "Root Cause",
+      "color": "#B91C1C",
+      "icon": "🔍",
+      "defaultSize": 35
+    },
+    "symptom": {
+      "label": "Symptom",
+      "color": "#FCA5A5",
+      "icon": "⚠️",
+      "defaultSize": 20
+    },
+    "pattern": {
+      "label": "Pattern",
+      "color": "#10B981",
+      "icon": "🔄",
+      "defaultSize": 40
+    },
+    "lesson": {
+      "label": "Lesson",
+      "color": "#6DBAA1",
+      "icon": "💡",
+      "defaultSize": 35
+    },
+    "technology": {
+      "label": "Technology",
+      "color": "#3B82F6",
+      "icon": "⚙️",
+      "defaultSize": 25
+    },
+    "team": {
+      "label": "Team",
+      "color": "#8B5CF6",
+      "icon": "👥",
+      "defaultSize": 30
+    },
+    "project": {
+      "label": "Project",
+      "color": "#1B4D5C",
+      "icon": "📊",
+      "defaultSize": 35
+    },
+    "expert": {
+      "label": "Expert",
+      "color": "#F59E0B",
+      "icon": "🎓",
+      "defaultSize": 25
+    },
+    "deployment": {
+      "label": "Deployment",
+      "color": "#EC4899",
+      "icon": "🚀",
+      "defaultSize": 25
+    },
+    "environment": {
+      "label": "Environment",
+      "color": "#14B8A6",
+      "icon": "🌍",
+      "defaultSize": 30
+    },
+    "vulnerability": {
+      "label": "Vulnerability",
+      "color": "#EF4444",
+      "icon": "🔓",
+      "defaultSize": 25
+    },
+    "change": {
+      "label": "Change",
+      "color": "#F97316",
+      "icon": "📝",
+      "defaultSize": 20
+    },
+    "service": {
+      "label": "Service",
+      "color": "#06B6D4",
+      "icon": "🔧",
+      "defaultSize": 25
+    },
+    "metric": {
+      "label": "Metric",
+      "color": "#84CC16",
+      "icon": "📈",
+      "defaultSize": 20
+    },
+    "understanding": {
+      "label": "Understanding",
+      "color": "#A855F7",
+      "icon": "🧠",
+      "defaultSize": 30
+    },
+    "principle": {
+      "label": "Principle",
+      "color": "#0EA5E9",
+      "icon": "📋",
+      "defaultSize": 25
+    },
+    "methodology": {
+      "label": "Methodology",
+      "color": "#22C55E",
+      "icon": "📐",
+      "defaultSize": 25
+    },
+    "objective": {
+      "label": "Objective",
+      "color": "#7C3AED",
+      "icon": "🎯",
+      "defaultSize": 30
+    }
+  },
+  
+  "edgeTypes": {
+    "triggered": {
+      "label": "Triggered",
+      "color": "#DC2626",
+      "style": "solid",
+      "arrow": true
+    },
+    "caused_by": {
+      "label": "Caused By",
+      "color": "#B91C1C",
+      "style": "solid",
+      "arrow": true
+    },
+    "related_to": {
+      "label": "Related To",
+      "color": "#6B7280",
+      "style": "dashed",
+      "arrow": false
+    },
+    "preceded_by": {
+      "label": "Preceded By",
+      "color": "#9CA3AF",
+      "style": "solid",
+      "arrow": true
+    },
+    "shares_pattern_with": {
+      "label": "Shares Pattern",
+      "color": "#10B981",
+      "style": "dotted",
+      "arrow": false
+    },
+    "manifests_as": {
+      "label": "Manifests As",
+      "color": "#FCA5A5",
+      "style": "solid",
+      "arrow": true
+    },
+    "indicates": {
+      "label": "Indicates",
+      "color": "#FBBF24",
+      "style": "dashed",
+      "arrow": true
+    },
+    "solves": {
+      "label": "Solves",
+      "color": "#10B981",
+      "style": "solid",
+      "arrow": true
+    },
+    "applied_in": {
+      "label": "Applied In",
+      "color": "#3B82F6",
+      "style": "solid",
+      "arrow": true
+    },
+    "similar_to": {
+      "label": "Similar To",
+      "color": "#6B7280",
+      "style": "dotted",
+      "arrow": false
+    },
+    "evolved_from": {
+      "label": "Evolved From",
+      "color": "#8B5CF6",
+      "style": "solid",
+      "arrow": true
+    },
+    "contradicts": {
+      "label": "Contradicts",
+      "color": "#EF4444",
+      "style": "dashed",
+      "arrow": false
+    },
+    "depends_on": {
+      "label": "Depends On",
+      "color": "#3B82F6",
+      "style": "solid",
+      "arrow": true
+    },
+    "integrates_with": {
+      "label": "Integrates With",
+      "color": "#06B6D4",
+      "style": "solid",
+      "arrow": false
+    },
+    "vulnerable_to": {
+      "label": "Vulnerable To",
+      "color": "#EF4444",
+      "style": "solid",
+      "arrow": true
+    },
+    "expert_in": {
+      "label": "Expert In",
+      "color": "#F59E0B",
+      "style": "solid",
+      "arrow": true
+    },
+    "documented": {
+      "label": "Documented",
+      "color": "#8B5CF6",
+      "style": "solid",
+      "arrow": true
+    },
+    "collaborated_with": {
+      "label": "Collaborated With",
+      "color": "#8B5CF6",
+      "style": "dashed",
+      "arrow": false
+    },
+    "derived_from": {
+      "label": "Derived From",
+      "color": "#6DBAA1",
+      "style": "solid",
+      "arrow": true
+    },
+    "prevents": {
+      "label": "Prevents",
+      "color": "#10B981",
+      "style": "solid",
+      "arrow": true
+    },
+    "implemented": {
+      "label": "Implemented",
+      "color": "#1B4D5C",
+      "style": "solid",
+      "arrow": true
+    },
+    "encountered": {
+      "label": "Encountered",
+      "color": "#DC2626",
+      "style": "solid",
+      "arrow": true
+    },
+    "led_by": {
+      "label": "Led By",
+      "color": "#8B5CF6",
+      "style": "solid",
+      "arrow": true
+    },
+    "authored": {
+      "label": "Authored",
+      "color": "#F59E0B",
+      "style": "solid",
+      "arrow": true
+    },
+    "mentored": {
+      "label": "Mentored",
+      "color": "#F59E0B",
+      "style": "dashed",
+      "arrow": true
+    },
+    "validated": {
+      "label": "Validated",
+      "color": "#10B981",
+      "style": "solid",
+      "arrow": true
+    },
+    "mitigated_by": {
+      "label": "Mitigated By",
+      "color": "#10B981",
+      "style": "solid",
+      "arrow": true
+    },
+    "affects": {
+      "label": "Affects",
+      "color": "#F97316",
+      "style": "solid",
+      "arrow": true
+    },
+    "influenced_by": {
+      "label": "Influenced By",
+      "color": "#A855F7",
+      "style": "dashed",
+      "arrow": true
+    }
+  },
+  
+  "nodes": [
+    {
+      "id": "incident_001",
+      "label": "API Gateway Outage",
+      "type": "incident",
+      "properties": {
+        "severity": "critical",
+        "duration_hours": 4,
+        "impact": "Complete service outage",
+        "date": "2024-01-15"
+      }
+    },
+    {
+      "id": "incident_002",
+      "label": "Database Cascade Failure",
+      "type": "incident",
+      "properties": {
+        "severity": "critical",
+        "duration_hours": 6,
+        "impact": "Data inconsistency",
+        "date": "2024-01-16"
+      }
+    },
+    {
+      "id": "incident_003",
+      "label": "Cache Invalidation Storm",
+      "type": "incident",
+      "properties": {
+        "severity": "high",
+        "duration_hours": 2,
+        "impact": "Performance degradation",
+        "date": "2024-01-16"
+      }
+    },
+    {
+      "id": "incident_004",
+      "label": "Memory Leak Production",
+      "type": "incident",
+      "properties": {
+        "severity": "high",
+        "duration_hours": 8,
+        "impact": "Service restarts required",
+        "date": "2024-01-20"
+      }
+    },
+    {
+      "id": "incident_005",
+      "label": "Deployment Rollback Cascade",
+      "type": "incident",
+      "properties": {
+        "severity": "medium",
+        "duration_hours": 3,
+        "impact": "Feature unavailable",
+        "date": "2024-02-01"
+      }
+    },
+    {
+      "id": "incident_006",
+      "label": "Security Breach Attempt",
+      "type": "incident",
+      "properties": {
+        "severity": "critical",
+        "duration_hours": 12,
+        "impact": "Potential data exposure",
+        "date": "2024-02-10"
+      }
+    },
+    {
+      "id": "root_cause_001",
+      "label": "Missing Circuit Breaker",
+      "type": "root_cause",
+      "properties": {
+        "category": "resilience",
+        "frequency": "common",
+        "prevention_cost": "low"
+      }
+    },
+    {
+      "id": "root_cause_002",
+      "label": "Unbounded Connection Pool",
+      "type": "root_cause",
+      "properties": {
+        "category": "resource_management",
+        "frequency": "common",
+        "prevention_cost": "low"
+      }
+    },
+    {
+      "id": "root_cause_003",
+      "label": "Missing Index on FK",
+      "type": "root_cause",
+      "properties": {
+        "category": "performance",
+        "frequency": "very_common",
+        "prevention_cost": "minimal"
+      }
+    },
+    {
+      "id": "symptom_001",
+      "label": "Increased Latency",
+      "type": "symptom",
+      "properties": {
+        "observable": true,
+        "metric": "p99_latency"
+      }
+    },
+    {
+      "id": "symptom_002",
+      "label": "Connection Timeouts",
+      "type": "symptom",
+      "properties": {
+        "observable": true,
+        "metric": "connection_errors"
+      }
+    },
+    {
+      "id": "symptom_003",
+      "label": "Memory Growth",
+      "type": "symptom",
+      "properties": {
+        "observable": true,
+        "metric": "heap_usage"
+      }
+    },
+    {
+      "id": "symptom_004",
+      "label": "CPU Spikes",
+      "type": "symptom",
+      "properties": {
+        "observable": true,
+        "metric": "cpu_utilization"
+      }
+    },
+    {
+      "id": "pattern_001",
+      "label": "Circuit Breaker Pattern",
+      "type": "pattern",
+      "properties": {
+        "category": "resilience",
+        "complexity": "medium",
+        "effectiveness": "high"
+      }
+    },
+    {
+      "id": "pattern_002",
+      "label": "Connection Pooling Strategy",
+      "type": "pattern",
+      "properties": {
+        "category": "resource_management",
+        "complexity": "low",
+        "effectiveness": "high"
+      }
+    },
+    {
+      "id": "pattern_003",
+      "label": "Graceful Degradation",
+      "type": "pattern",
+      "properties": {
+        "category": "resilience",
+        "complexity": "high",
+        "effectiveness": "very_high"
+      }
+    },
+    {
+      "id": "pattern_004",
+      "label": "Retry with Backoff",
+      "type": "pattern",
+      "properties": {
+        "category": "resilience",
+        "complexity": "low",
+        "effectiveness": "medium"
+      }
+    },
+    {
+      "id": "pattern_005",
+      "label": "Database Sharding",
+      "type": "pattern",
+      "properties": {
+        "category": "scalability",
+        "complexity": "very_high",
+        "effectiveness": "high"
+      }
+    },
+    {
+      "id": "pattern_006",
+      "label": "Event Sourcing",
+      "type": "pattern",
+      "properties": {
+        "category": "architecture",
+        "complexity": "high",
+        "effectiveness": "high"
+      }
+    },
+    {
+      "id": "pattern_007",
+      "label": "Security Hardening",
+      "type": "pattern",
+      "properties": {
+        "category": "security",
+        "complexity": "medium",
+        "effectiveness": "high"
+      }
+    },
+    {
+      "id": "tech_kubernetes",
+      "label": "Kubernetes",
+      "type": "technology",
+      "properties": {
+        "category": "orchestration",
+        "maturity": "stable",
+        "version": "1.28"
+      }
+    },
+    {
+      "id": "tech_docker",
+      "label": "Docker",
+      "type": "technology",
+      "properties": {
+        "category": "containerization",
+        "maturity": "stable",
+        "version": "24.0"
+      }
+    },
+    {
+      "id": "tech_prometheus",
+      "label": "Prometheus",
+      "type": "technology",
+      "properties": {
+        "category": "monitoring",
+        "maturity": "stable",
+        "version": "2.45"
+      }
+    },
+    {
+      "id": "tech_grafana",
+      "label": "Grafana",
+      "type": "technology",
+      "properties": {
+        "category": "visualization",
+        "maturity": "stable",
+        "version": "10.0"
+      }
+    },
+    {
+      "id": "tech_nodejs",
+      "label": "Node.js",
+      "type": "technology",
+      "properties": {
+        "category": "runtime",
+        "maturity": "stable",
+        "version": "20.0"
+      }
+    },
+    {
+      "id": "tech_postgres",
+      "label": "PostgreSQL",
+      "type": "technology",
+      "properties": {
+        "category": "database",
+        "maturity": "stable",
+        "version": "15.0"
+      }
+    },
+    {
+      "id": "tech_redis",
+      "label": "Redis",
+      "type": "technology",
+      "properties": {
+        "category": "cache",
+        "maturity": "stable",
+        "version": "7.0"
+      }
+    },
+    {
+      "id": "tech_kafka",
+      "label": "Apache Kafka",
+      "type": "technology",
+      "properties": {
+        "category": "messaging",
+        "maturity": "stable",
+        "version": "3.5"
+      }
+    },
+    {
+      "id": "tech_rabbitmq",
+      "label": "RabbitMQ",
+      "type": "technology",
+      "properties": {
+        "category": "messaging",
+        "maturity": "stable",
+        "version": "3.12"
+      }
+    },
+    {
+      "id": "tech_mongodb",
+      "label": "MongoDB",
+      "type": "technology",
+      "properties": {
+        "category": "database",
+        "maturity": "stable",
+        "version": "7.0"
+      }
+    },
+    {
+      "id": "tech_docker_swarm",
+      "label": "Docker Swarm",
+      "type": "technology",
+      "properties": {
+        "category": "orchestration",
+        "maturity": "legacy",
+        "version": "1.2"
+      }
+    },
+    {
+      "id": "team_platform",
+      "label": "Platform Engineering",
+      "type": "team",
+      "properties": {
+        "size": 12,
+        "expertise": ["kubernetes", "infrastructure"],
+        "location": "London"
+      }
+    },
+    {
+      "id": "team_backend",
+      "label": "Backend Development",
+      "type": "team",
+      "properties": {
+        "size": 15,
+        "expertise": ["nodejs", "microservices"],
+        "location": "London"
+      }
+    },
+    {
+      "id": "team_data",
+      "label": "Data Engineering",
+      "type": "team",
+      "properties": {
+        "size": 8,
+        "expertise": ["kafka", "etl"],
+        "location": "Brighton"
+      }
+    },
+    {
+      "id": "team_security",
+      "label": "Security Team",
+      "type": "team",
+      "properties": {
+        "size": 6,
+        "expertise": ["security", "compliance"],
+        "location": "London"
+      }
+    },
+    {
+      "id": "lesson_001",
+      "label": "Always implement circuit breakers",
+      "type": "lesson",
+      "properties": {
+        "priority": "critical",
+        "validated": true,
+        "applications": 14
+      }
+    },
+    {
+      "id": "lesson_002",
+      "label": "Pool resources with bounds",
+      "type": "lesson",
+      "properties": {
+        "priority": "high",
+        "validated": true,
+        "applications": 20
+      }
+    },
+    {
+      "id": "lesson_003",
+      "label": "Monitor before optimizing",
+      "type": "lesson",
+      "properties": {
+        "priority": "medium",
+        "validated": true,
+        "applications": 8
+      }
+    },
+    {
+      "id": "lesson_004",
+      "label": "Cascading failures are preventable",
+      "type": "lesson",
+      "properties": {
+        "priority": "critical",
+        "validated": true,
+        "applications": 10
+      }
+    },
+    {
+      "id": "lesson_005",
+      "label": "Context matters for patterns",
+      "type": "lesson",
+      "properties": {
+        "priority": "high",
+        "validated": true,
+        "applications": 6
+      }
+    },
+    {
+      "id": "lesson_006",
+      "label": "Production differs from staging",
+      "type": "lesson",
+      "properties": {
+        "priority": "high",
+        "validated": true,
+        "applications": 15
+      }
+    },
+    {
+      "id": "lesson_007",
+      "label": "Test under load early",
+      "type": "lesson",
+      "properties": {
+        "priority": "critical",
+        "validated": true,
+        "applications": 12
+      }
+    },
+    {
+      "id": "project_001",
+      "label": "Microservices Migration",
+      "type": "project",
+      "properties": {
+        "status": "completed",
+        "duration_months": 6,
+        "team_size": 20,
+        "outcome": "successful"
+      }
+    },
+    {
+      "id": "project_002",
+      "label": "Platform Modernization",
+      "type": "project",
+      "properties": {
+        "status": "completed",
+        "duration_months": 9,
+        "team_size": 15,
+        "outcome": "successful"
+      }
+    },
+    {
+      "id": "project_003",
+      "label": "Data Pipeline Rebuild",
+      "type": "project",
+      "properties": {
+        "status": "in_progress",
+        "duration_months": 4,
+        "team_size": 8,
+        "outcome": "pending"
+      }
+    },
+    {
+      "id": "project_004",
+      "label": "Security Hardening",
+      "type": "project",
+      "properties": {
+        "status": "completed",
+        "duration_months": 3,
+        "team_size": 6,
+        "outcome": "successful"
+      }
+    },
+    {
+      "id": "project_005",
+      "label": "Observability Implementation",
+      "type": "project",
+      "properties": {
+        "status": "completed",
+        "duration_months": 4,
+        "team_size": 10,
+        "outcome": "successful"
+      }
+    },
+    {
+      "id": "project_006",
+      "label": "Event-Driven Architecture",
+      "type": "project",
+      "properties": {
+        "status": "planning",
+        "duration_months": 8,
+        "team_size": 12,
+        "outcome": "pending"
+      }
+    },
+    {
+      "id": "expert_chen",
+      "label": "Dr. Sarah Chen",
+      "type": "expert",
+      "properties": {
+        "specialization": "Distributed Systems",
+        "years_experience": 15,
+        "contributions": 23
+      }
+    },
+    {
+      "id": "expert_jones",
+      "label": "Michael Jones",
+      "type": "expert",
+      "properties": {
+        "specialization": "Cloud Architecture",
+        "years_experience": 10,
+        "contributions": 18
+      }
+    },
+    {
+      "id": "expert_smith",
+      "label": "Alexandra Smith",
+      "type": "expert",
+      "properties": {
+        "specialization": "Performance Engineering",
+        "years_experience": 12,
+        "contributions": 15
+      }
+    },
+    {
+      "id": "expert_wilson",
+      "label": "James Wilson",
+      "type": "expert",
+      "properties": {
+        "specialization": "DevOps/SRE",
+        "years_experience": 8,
+        "contributions": 20
+      }
+    },
+    {
+      "id": "deployment_001",
+      "label": "v2.1.0 Release",
+      "type": "deployment",
+      "properties": {
+        "date": "2024-02-01",
+        "environment": "production",
+        "status": "failed"
+      }
+    },
+    {
+      "id": "deployment_002",
+      "label": "v2.1.1 Hotfix",
+      "type": "deployment",
+      "properties": {
+        "date": "2024-02-02",
+        "environment": "production",
+        "status": "successful"
+      }
+    },
+    {
+      "id": "change_001",
+      "label": "API Rate Limiting",
+      "type": "change",
+      "properties": {
+        "type": "feature",
+        "risk": "medium"
+      }
+    },
+    {
+      "id": "change_002",
+      "label": "Database Migration",
+      "type": "change",
+      "properties": {
+        "type": "schema",
+        "risk": "high"
+      }
+    },
+    {
+      "id": "change_003",
+      "label": "Cache Strategy Update",
+      "type": "change",
+      "properties": {
+        "type": "configuration",
+        "risk": "medium"
+      }
+    },
+    {
+      "id": "environment_prod",
+      "label": "Production",
+      "type": "environment",
+      "properties": {
+        "tier": "production",
+        "region": "eu-west-1",
+        "sla": "99.99%"
+      }
+    },
+    {
+      "id": "environment_staging",
+      "label": "Staging",
+      "type": "environment",
+      "properties": {
+        "tier": "staging",
+        "region": "eu-west-1",
+        "sla": "99.9%"
+      }
+    },
+    {
+      "id": "environment_dev",
+      "label": "Development",
+      "type": "environment",
+      "properties": {
+        "tier": "development",
+        "region": "eu-west-2",
+        "sla": "95%"
+      }
+    },
+    {
+      "id": "vulnerability_001",
+      "label": "CVE-2024-1234",
+      "type": "vulnerability",
+      "properties": {
+        "severity": "critical",
+        "cvss": 9.8,
+        "status": "mitigated"
+      }
+    },
+    {
+      "id": "vulnerability_002",
+      "label": "CVE-2024-5678",
+      "type": "vulnerability",
+      "properties": {
+        "severity": "high",
+        "cvss": 7.5,
+        "status": "mitigated"
+      }
+    },
+    {
+      "id": "vulnerability_003",
+      "label": "CVE-2024-9012",
+      "type": "vulnerability",
+      "properties": {
+        "severity": "medium",
+        "cvss": 5.3,
+        "status": "open"
+      }
+    },
+    {
+      "id": "service_api",
+      "label": "API Gateway",
+      "type": "service",
+      "properties": {
+        "criticality": "tier-1",
+        "ownership": "platform"
+      }
+    },
+    {
+      "id": "service_database",
+      "label": "Primary Database",
+      "type": "service",
+      "properties": {
+        "criticality": "tier-1",
+        "ownership": "platform"
+      }
+    },
+    {
+      "id": "customer_experience",
+      "label": "Customer Experience",
+      "type": "metric",
+      "properties": {
+        "type": "business",
+        "unit": "nps"
+      }
+    },
+    {
+      "id": "data_integrity",
+      "label": "Data Integrity",
+      "type": "metric",
+      "properties": {
+        "type": "technical",
+        "unit": "percentage"
+      }
+    },
+    {
+      "id": "metric_nps",
+      "label": "Net Promoter Score",
+      "type": "metric",
+      "properties": {
+        "type": "business",
+        "current_value": 72
+      }
+    },
+    {
+      "id": "metric_accuracy",
+      "label": "Data Accuracy",
+      "type": "metric",
+      "properties": {
+        "type": "technical",
+        "current_value": 99.98
+      }
+    },
+    {
+      "id": "metric_mttr",
+      "label": "Mean Time To Recovery",
+      "type": "metric",
+      "properties": {
+        "type": "operational",
+        "current_value": 45,
+        "unit": "minutes"
+      }
+    },
+    {
+      "id": "understanding_v1",
+      "label": "Initial Failure Model",
+      "type": "understanding",
+      "properties": {
+        "version": 1,
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "understanding_v2",
+      "label": "Refined Failure Model",
+      "type": "understanding",
+      "properties": {
+        "version": 2,
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "understanding_v3",
+      "label": "Comprehensive Failure Model",
+      "type": "understanding",
+      "properties": {
+        "version": 3,
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "incident_production_2019",
+      "label": "2019 Major Outage",
+      "type": "incident",
+      "properties": {
+        "severity": "critical",
+        "historical": true,
+        "year": 2019
+      }
+    },
+    {
+      "id": "industry_best_practice_001",
+      "label": "Netflix Chaos Engineering",
+      "type": "principle",
+      "properties": {
+        "source": "external",
+        "validated": true
+      }
+    },
+    {
+      "id": "company_principle_001",
+      "label": "Fail Fast, Learn Faster",
+      "type": "principle",
+      "properties": {
+        "source": "internal",
+        "core_value": true
+      }
+    },
+    {
+      "id": "methodology_sre",
+      "label": "Site Reliability Engineering",
+      "type": "methodology",
+      "properties": {
+        "adoption": "full",
+        "maturity": "high"
+      }
+    },
+    {
+      "id": "objective_scalability",
+      "label": "10x Scalability Target",
+      "type": "objective",
+      "properties": {
+        "priority": "high",
+        "timeline": "2024"
+      }
+    },
+    {
+      "id": "monitoring_alert_001",
+      "label": "Memory Usage Alert",
+      "type": "metric",
+      "properties": {
+        "type": "alert",
+        "threshold": "85%"
+      }
+    },
+    {
+      "id": "documentation_001",
+      "label": "Resilience Patterns Guide",
+      "type": "principle",
+      "properties": {
+        "type": "documentation",
+        "version": "3.0"
+      }
+    }
+  ],
+  
+  "edges": [
+    {
+      "source": "incident_001",
+      "target": "incident_002",
+      "type": "triggered",
+      "weight": 0.9
+    },
+    {
+      "source": "incident_001",
+      "target": "incident_003",
+      "type": "triggered",
+      "weight": 0.7
+    },
+    {
+      "source": "incident_002",
+      "target": "root_cause_001",
+      "type": "caused_by",
+      "weight": 1.0
+    },
+    {
+      "source": "incident_003",
+      "target": "root_cause_001",
+      "type": "caused_by",
+      "weight": 0.8
+    },
+    {
+      "source": "incident_002",
+      "target": "incident_004",
+      "type": "related_to",
+      "weight": 0.6
+    },
+    {
+      "source": "incident_004",
+      "target": "incident_003",
+      "type": "preceded_by",
+      "weight": 0.7
+    },
+    {
+      "source": "incident_005",
+      "target": "incident_001",
+      "type": "shares_pattern_with",
+      "weight": 0.8
+    },
+    {
+      "source": "incident_006",
+      "target": "incident_001",
+      "type": "shares_pattern_with",
+      "weight": 0.7
+    },
+    {
+      "source": "incident_005",
+      "target": "deployment_001",
+      "type": "caused_by",
+      "weight": 1.0
+    },
+    {
+      "source": "incident_006",
+      "target": "deployment_002",
+      "type": "prevented_by",
+      "weight": 0.9
+    },
+    {
+      "source": "root_cause_001",
+      "target": "symptom_001",
+      "type": "manifests_as",
+      "weight": 0.9
+    },
+    {
+      "source": "root_cause_001",
+      "target": "symptom_002",
+      "type": "manifests_as",
+      "weight": 0.8
+    },
+    {
+      "source": "root_cause_001",
+      "target": "symptom_003",
+      "type": "manifests_as",
+      "weight": 0.7
+    },
+    {
+      "source": "root_cause_002",
+      "target": "symptom_002",
+      "type": "manifests_as",
+      "weight": 0.9
+    },
+    {
+      "source": "root_cause_002",
+      "target": "symptom_004",
+      "type": "manifests_as",
+      "weight": 0.8
+    },
+    {
+      "source": "root_cause_003",
+      "target": "symptom_003",
+      "type": "manifests_as",
+      "weight": 0.9
+    },
+    {
+      "source": "root_cause_003",
+      "target": "symptom_004",
+      "type": "manifests_as",
+      "weight": 0.7
+    },
+    {
+      "source": "symptom_001",
+      "target": "root_cause_001",
+      "type": "indicates",
+      "weight": 0.6
+    },
+    {
+      "source": "symptom_002",
+      "target": "root_cause_001",
+      "type": "indicates",
+      "weight": 0.5
+    },
+    {
+      "source": "symptom_002",
+      "target": "root_cause_002",
+      "type": "indicates",
+      "weight": 0.7
+    },
+    {
+      "source": "pattern_001",
+      "target": "root_cause_001",
+      "type": "solves",
+      "weight": 0.9
+    },
+    {
+      "source": "pattern_001",
+      "target": "project_001",
+      "type": "applied_in",
+      "weight": 1.0
+    },
+    {
+      "source": "pattern_001",
+      "target": "project_004",
+      "type": "applied_in",
+      "weight": 1.0
+    },
+    {
+      "source": "pattern_001",
+      "target": "pattern_002",
+      "type": "similar_to",
+      "weight": 0.8
+    },
+    {
+      "source": "pattern_002",
+      "target": "root_cause_002",
+      "type": "solves",
+      "weight": 0.9
+    },
+    {
+      "source": "pattern_002",
+      "target": "project_002",
+      "type": "applied_in",
+      "weight": 1.0
+    },
+    {
+      "source": "pattern_003",
+      "target": "pattern_001",
+      "type": "evolved_from",
+      "weight": 0.9
+    },
+    {
+      "source": "pattern_003",
+      "target": "pattern_002",
+      "type": "evolved_from",
+      "weight": 0.7
+    },
+    {
+      "source": "pattern_003",
+      "target": "project_005",
+      "type": "applied_in",
+      "weight": 1.0
+    },
+    {
+      "source": "pattern_004",
+      "target": "pattern_001",
+      "type": "contradicts",
+      "weight": 0.8
+    },
+    {
+      "source": "pattern_004",
+      "target": "pattern_002",
+      "type": "complements",
+      "weight": 0.6
+    },
+    {
+      "source": "tech_kubernetes",
+      "target": "tech_docker",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "tech_kubernetes",
+      "target": "tech_prometheus",
+      "type": "integrates_with",
+      "weight": 0.9
+    },
+    {
+      "source": "tech_kubernetes",
+      "target": "tech_grafana",
+      "type": "integrates_with",
+      "weight": 0.8
+    },
+    {
+      "source": "tech_prometheus",
+      "target": "tech_kubernetes",
+      "type": "monitors",
+      "weight": 0.9
+    },
+    {
+      "source": "tech_grafana",
+      "target": "tech_prometheus",
+      "type": "depends_on",
+      "weight": 0.9
+    },
+    {
+      "source": "tech_docker",
+      "target": "vulnerability_001",
+      "type": "vulnerable_to",
+      "weight": 0.7
+    },
+    {
+      "source": "tech_nodejs",
+      "target": "vulnerability_002",
+      "type": "vulnerable_to",
+      "weight": 0.8
+    },
+    {
+      "source": "tech_postgres",
+      "target": "pattern_005",
+      "type": "enables",
+      "weight": 0.9
+    },
+    {
+      "source": "tech_redis",
+      "target": "pattern_005",
+      "type": "complements",
+      "weight": 0.8
+    },
+    {
+      "source": "tech_kafka",
+      "target": "pattern_006",
+      "type": "enables",
+      "weight": 0.9
+    },
+    {
+      "source": "tech_rabbitmq",
+      "target": "tech_kafka",
+      "type": "alternative_to",
+      "weight": 0.8
+    },
+    {
+      "source": "tech_mongodb",
+      "target": "tech_postgres",
+      "type": "alternative_to",
+      "weight": 0.7
+    },
+    {
+      "source": "tech_kubernetes",
+      "target": "tech_docker_swarm",
+      "type": "succeeded",
+      "weight": 0.9
+    },
+    {
+      "source": "team_platform",
+      "target": "tech_kubernetes",
+      "type": "expert_in",
+      "weight": 0.9
+    },
+    {
+      "source": "team_platform",
+      "target": "tech_docker",
+      "type": "expert_in",
+      "weight": 0.9
+    },
+    {
+      "source": "team_platform",
+      "target": "lesson_001",
+      "type": "documented",
+      "weight": 1.0
+    },
+    {
+      "source": "team_platform",
+      "target": "lesson_002",
+      "type": "documented",
+      "weight": 1.0
+    },
+    {
+      "source": "team_backend",
+      "target": "tech_nodejs",
+      "type": "expert_in",
+      "weight": 0.9
+    },
+    {
+      "source": "team_backend",
+      "target": "tech_postgres",
+      "type": "expert_in",
+      "weight": 0.8
+    },
+    {
+      "source": "team_backend",
+      "target": "team_platform",
+      "type": "collaborated_with",
+      "weight": 0.9
+    },
+    {
+      "source": "team_data",
+      "target": "tech_kafka",
+      "type": "expert_in",
+      "weight": 0.9
+    },
+    {
+      "source": "team_data",
+      "target": "pattern_006",
+      "type": "champion_of",
+      "weight": 0.8
+    },
+    {
+      "source": "team_data",
+      "target": "team_backend",
+      "type": "mentored",
+      "weight": 0.7
+    },
+    {
+      "source": "team_security",
+      "target": "vulnerability_001",
+      "type": "identified",
+      "weight": 1.0
+    },
+    {
+      "source": "team_security",
+      "target": "vulnerability_002",
+      "type": "identified",
+      "weight": 1.0
+    },
+    {
+      "source": "team_security",
+      "target": "pattern_001",
+      "type": "validated",
+      "weight": 0.8
+    },
+    {
+      "source": "lesson_001",
+      "target": "incident_001",
+      "type": "derived_from",
+      "weight": 1.0
+    },
+    {
+      "source": "lesson_001",
+      "target": "incident_002",
+      "type": "derived_from",
+      "weight": 0.9
+    },
+    {
+      "source": "lesson_001",
+      "target": "incident_005",
+      "type": "prevents",
+      "weight": 0.8
+    },
+    {
+      "source": "lesson_002",
+      "target": "incident_003",
+      "type": "derived_from",
+      "weight": 1.0
+    },
+    {
+      "source": "lesson_002",
+      "target": "lesson_001",
+      "type": "reinforces",
+      "weight": 0.7
+    },
+    {
+      "source": "lesson_003",
+      "target": "lesson_002",
+      "type": "contradicts",
+      "weight": 0.6
+    },
+    {
+      "source": "lesson_003",
+      "target": "incident_004",
+      "type": "derived_from",
+      "weight": 1.0
+    },
+    {
+      "source": "lesson_004",
+      "target": "lesson_001",
+      "type": "generalizes",
+      "weight": 0.8
+    },
+    {
+      "source": "lesson_004",
+      "target": "lesson_002",
+      "type": "generalizes",
+      "weight": 0.7
+    },
+    {
+      "source": "lesson_005",
+      "target": "lesson_004",
+      "type": "specializes",
+      "weight": 0.8
+    },
+    {
+      "source": "lesson_006",
+      "target": "environment_prod",
+      "type": "applies_to",
+      "weight": 0.9
+    },
+    {
+      "source": "lesson_007",
+      "target": "environment_dev",
+      "type": "applies_to",
+      "weight": 0.9
+    },
+    {
+      "source": "project_001",
+      "target": "pattern_001",
+      "type": "implemented",
+      "weight": 1.0
+    },
+    {
+      "source": "project_001",
+      "target": "incident_001",
+      "type": "encountered",
+      "weight": 1.0
+    },
+    {
+      "source": "project_001",
+      "target": "tech_kubernetes",
+      "type": "utilized",
+      "weight": 1.0
+    },
+    {
+      "source": "project_001",
+      "target": "team_platform",
+      "type": "led_by",
+      "weight": 1.0
+    },
+    {
+      "source": "project_002",
+      "target": "project_001",
+      "type": "succeeded",
+      "weight": 0.8
+    },
+    {
+      "source": "project_002",
+      "target": "project_001",
+      "type": "improved_upon",
+      "weight": 0.7
+    },
+    {
+      "source": "project_002",
+      "target": "pattern_001",
+      "type": "reused",
+      "weight": 0.9
+    },
+    {
+      "source": "project_003",
+      "target": "project_002",
+      "type": "parallel_to",
+      "weight": 1.0
+    },
+    {
+      "source": "project_003",
+      "target": "project_002",
+      "type": "shared_resources",
+      "weight": 0.8
+    },
+    {
+      "source": "project_004",
+      "target": "project_005",
+      "type": "prerequisite_for",
+      "weight": 1.0
+    },
+    {
+      "source": "project_005",
+      "target": "lesson_001",
+      "type": "validated",
+      "weight": 0.9
+    },
+    {
+      "source": "project_006",
+      "target": "lesson_003",
+      "type": "challenges",
+      "weight": 0.7
+    },
+    {
+      "source": "expert_chen",
+      "target": "pattern_001",
+      "type": "authored",
+      "weight": 1.0
+    },
+    {
+      "source": "expert_chen",
+      "target": "pattern_003",
+      "type": "authored",
+      "weight": 1.0
+    },
+    {
+      "source": "expert_chen",
+      "target": "expert_jones",
+      "type": "mentored",
+      "weight": 0.9
+    },
+    {
+      "source": "expert_chen",
+      "target": "lesson_001",
+      "type": "validated",
+      "weight": 0.8
+    },
+    {
+      "source": "expert_jones",
+      "target": "pattern_002",
+      "type": "authored",
+      "weight": 1.0
+    },
+    {
+      "source": "expert_jones",
+      "target": "expert_chen",
+      "type": "collaborated_with",
+      "weight": 0.9
+    },
+    {
+      "source": "expert_smith",
+      "target": "pattern_001",
+      "type": "critiqued",
+      "weight": 0.7
+    },
+    {
+      "source": "expert_smith",
+      "target": "pattern_004",
+      "type": "authored",
+      "weight": 1.0
+    },
+    {
+      "source": "expert_wilson",
+      "target": "tech_kubernetes",
+      "type": "expert_in",
+      "weight": 0.9
+    },
+    {
+      "source": "expert_wilson",
+      "target": "incident_001",
+      "type": "consulted_on",
+      "weight": 1.0
+    },
+    {
+      "source": "expert_wilson",
+      "target": "lesson_004",
+      "type": "validated",
+      "weight": 0.8
+    },
+    {
+      "source": "deployment_001",
+      "target": "environment_prod",
+      "type": "deployed_to",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_001",
+      "target": "incident_005",
+      "type": "triggered",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_001",
+      "target": "change_001",
+      "type": "included",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_002",
+      "target": "environment_staging",
+      "type": "deployed_to",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_002",
+      "target": "change_002",
+      "type": "included",
+      "weight": 1.0
+    },
+    {
+      "source": "deployment_002",
+      "target": "change_003",
+      "type": "included",
+      "weight": 1.0
+    },
+    {
+      "source": "change_001",
+      "target": "tech_kubernetes",
+      "type": "affects",
+      "weight": 0.9
+    },
+    {
+      "source": "change_002",
+      "target": "tech_nodejs",
+      "type": "affects",
+      "weight": 0.8
+    },
+    {
+      "source": "change_003",
+      "target": "change_002",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "environment_prod",
+      "target": "tech_kubernetes",
+      "type": "hosts",
+      "weight": 1.0
+    },
+    {
+      "source": "environment_prod",
+      "target": "tech_postgres",
+      "type": "hosts",
+      "weight": 1.0
+    },
+    {
+      "source": "environment_staging",
+      "target": "environment_prod",
+      "type": "mirrors",
+      "weight": 0.8
+    },
+    {
+      "source": "vulnerability_001",
+      "target": "tech_docker",
+      "type": "affects",
+      "weight": 0.9
+    },
+    {
+      "source": "vulnerability_001",
+      "target": "incident_006",
+      "type": "exploited_in",
+      "weight": 1.0
+    },
+    {
+      "source": "vulnerability_001",
+      "target": "pattern_007",
+      "type": "mitigated_by",
+      "weight": 0.9
+    },
+    {
+      "source": "vulnerability_002",
+      "target": "tech_nodejs",
+      "type": "affects",
+      "weight": 0.8
+    },
+    {
+      "source": "vulnerability_002",
+      "target": "team_security",
+      "type": "discovered_by",
+      "weight": 1.0
+    },
+    {
+      "source": "vulnerability_003",
+      "target": "vulnerability_001",
+      "type": "related_to",
+      "weight": 0.7
+    },
+    {
+      "source": "pattern_007",
+      "target": "vulnerability_003",
+      "type": "prevents",
+      "weight": 0.8
+    },
+    {
+      "source": "incident_001",
+      "target": "incident_production_2019",
+      "type": "similar_to",
+      "weight": 0.7
+    },
+    {
+      "source": "pattern_001",
+      "target": "industry_best_practice_001",
+      "type": "inspired_by",
+      "weight": 0.8
+    },
+    {
+      "source": "lesson_001",
+      "target": "company_principle_001",
+      "type": "aligns_with",
+      "weight": 0.9
+    },
+    {
+      "source": "team_platform",
+      "target": "methodology_sre",
+      "type": "follows",
+      "weight": 0.9
+    },
+    {
+      "source": "expert_chen",
+      "target": "industry_best_practice_001",
+      "type": "contributed_to",
+      "weight": 0.6
+    },
+    {
+      "source": "project_001",
+      "target": "objective_scalability",
+      "type": "supports",
+      "weight": 0.9
+    },
+    {
+      "source": "incident_002",
+      "target": "monitoring_alert_001",
+      "type": "predicted_by",
+      "weight": 0.7
+    },
+    {
+      "source": "pattern_003",
+      "target": "documentation_001",
+      "type": "documented_in",
+      "weight": 1.0
+    },
+    {
+      "source": "lesson_004",
+      "target": "metric_mttr",
+      "type": "measured_by",
+      "weight": 0.8
+    },
+    {
+      "source": "lesson_001",
+      "target": "pattern_003",
+      "type": "influenced",
+      "weight": 0.8
+    },
+    {
+      "source": "pattern_003",
+      "target": "lesson_001",
+      "type": "validated",
+      "weight": 0.9
+    },
+    {
+      "source": "incident_003",
+      "target": "change_001",
+      "type": "caused_by",
+      "weight": 0.9
+    },
+    {
+      "source": "change_001",
+      "target": "incident_002",
+      "type": "response_to",
+      "weight": 0.8
+    },
+    {
+      "source": "team_backend",
+      "target": "team_platform",
+      "type": "learned_from",
+      "weight": 0.7
+    },
+    {
+      "source": "team_platform",
+      "target": "team_backend",
+      "type": "learned_from",
+      "weight": 0.6
+    },
+    {
+      "source": "service_api",
+      "target": "service_database",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "incident_001",
+      "target": "service_api",
+      "type": "impacted",
+      "weight": 0.9
+    },
+    {
+      "source": "incident_001",
+      "target": "service_database",
+      "type": "impacted",
+      "weight": 0.7
+    },
+    {
+      "source": "service_api",
+      "target": "customer_experience",
+      "type": "affects",
+      "weight": 0.9
+    },
+    {
+      "source": "service_database",
+      "target": "data_integrity",
+      "type": "affects",
+      "weight": 0.9
+    },
+    {
+      "source": "customer_experience",
+      "target": "metric_nps",
+      "type": "measured_by",
+      "weight": 1.0
+    },
+    {
+      "source": "data_integrity",
+      "target": "metric_accuracy",
+      "type": "measured_by",
+      "weight": 1.0
+    },
+    {
+      "source": "understanding_v1",
+      "target": "lesson_001",
+      "type": "documented_in",
+      "weight": 1.0
+    },
+    {
+      "source": "understanding_v2",
+      "target": "understanding_v1",
+      "type": "evolved_from",
+      "weight": 0.9
+    },
+    {
+      "source": "understanding_v2",
+      "target": "lesson_004",
+      "type": "documented_in",
+      "weight": 1.0
+    },
+    {
+      "source": "understanding_v3",
+      "target": "understanding_v2",
+      "type": "synthesized_from",
+      "weight": 0.8
+    },
+    {
+      "source": "understanding_v3",
+      "target": "lesson_005",
+      "type": "synthesized_from",
+      "weight": 0.7
+    },
+    {
+      "source": "understanding_v3",
+      "target": "understanding_v1",
+      "type": "supersedes",
+      "weight": 0.6
+    }
+  ]
+}

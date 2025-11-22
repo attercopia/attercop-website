@@ -16,7 +16,7 @@ export function CaseStudies() {
                             From portfolio-wide transformations to specific value creation initiatives.
                         </p>
                     </div>
-                    <Link href="/case-studies" className="hidden md:flex items-center gap-2 text-deep-teal font-semibold hover:text-sea-green transition-colors">
+                    <Link href="/resources/insights/case-studies" className="hidden md:flex items-center gap-2 text-deep-teal font-semibold hover:text-sea-green transition-colors">
                         View All Stories <ArrowRight className="w-4 h-4" />
                     </Link>
                 </div>

@@ -18,7 +18,7 @@ export function BottomCTA() {
                         Accelerate value creation across your portfolio. Implement AI strategies that drive multiple expansion.
                     </p>
                     <Button size="lg" className="bg-sea-green hover:bg-sea-green/90 text-white" asChild>
-                        <Link href="/pe-firms">
+                        <Link href="/for-pe-firms">
                             Partner With Us <ArrowRight className="ml-2 w-4 h-4" />
                         </Link>
                     </Button>
@@ -36,7 +36,7 @@ export function BottomCTA() {
                         Execute on the AI mandate. Build practical, high-ROI solutions that transform operations.
                     </p>
                     <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-midnight" asChild>
-                        <Link href="/portfolio">
+                        <Link href="/for-businesses">
                             Start Building <ArrowRight className="ml-2 w-4 h-4" />
                         </Link>
                     </Button>

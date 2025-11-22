@@ -162,7 +162,7 @@ export default function PEResourcesPage() {
 
                         <div className="text-center mt-12">
                             <Button size="lg" asChild>
-                                <Link href="/case-studies">View All Case Studies</Link>
+                                <Link href="/resources/insights/case-studies">View All Case Studies</Link>
                             </Button>
                         </div>
                     </div>

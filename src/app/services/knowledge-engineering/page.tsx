@@ -574,7 +574,7 @@ export default function KnowledgeEngineeringPage() {
                         </div>
 
                         <Button size="lg" variant="outline" className="mt-8 border-white text-white hover:bg-white hover:text-midnight" asChild>
-                            <Link href="/roi-calculator">Calculate Your ROI</Link>
+                            <Link href="/resources/roi-calculator">Calculate Your ROI</Link>
                         </Button>
                     </div>
                 </div>
@@ -593,7 +593,7 @@ export default function KnowledgeEngineeringPage() {
                             </p>
                         </div>
                         <Button variant="outline" className="hidden md:flex" asChild>
-                            <Link href="/case-studies">View All Case Studies</Link>
+                            <Link href="/resources/insights/case-studies">View All Case Studies</Link>
                         </Button>
                     </div>
 

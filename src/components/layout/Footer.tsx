@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Linkedin, Twitter } from "lucide-react"
+import { Linkedin, Mail } from "lucide-react"
 
 export function Footer() {
     return (
@@ -44,8 +44,6 @@ export function Footer() {
                             <li><Link href="/for-businesses" className="hover:text-sea-green transition-colors">Portfolio Companies</Link></li>
                             <li><Link href="/for-life-sciences" className="hover:text-sea-green transition-colors">Life Sciences</Link></li>
                             <li><Link href="/for-life-sciences/healthcare-operations" className="hover:text-sea-green transition-colors">Healthcare</Link></li>
-                            <li><Link href="/services" className="hover:text-sea-green transition-colors">Financial Services</Link></li>
-                            <li><Link href="/services" className="hover:text-sea-green transition-colors">Manufacturing</Link></li>
                         </ul>
                     </div>
 
@@ -53,12 +51,12 @@ export function Footer() {
                     <div className="space-y-4">
                         <h4 className="font-display text-lg font-semibold text-white">Resources</h4>
                         <ul className="space-y-2 text-sm text-pearl/80">
-                            <li><Link href="/insights" className="hover:text-sea-green transition-colors">Blog</Link></li>
-                            <li><Link href="/insights/whitepapers" className="hover:text-sea-green transition-colors">Whitepapers</Link></li>
-                            <li><Link href="/case-studies" className="hover:text-sea-green transition-colors">Case Studies</Link></li>
-                            <li><Link href="/insights/webinars" className="hover:text-sea-green transition-colors">Webinars</Link></li>
-                            <li><Link href="/assessment" className="hover:text-sea-green transition-colors">AI Assessment Tool</Link></li>
-                            <li><Link href="/roi-calculator" className="hover:text-sea-green transition-colors">ROI Calculator</Link></li>
+                            <li><Link href="/threads" className="hover:text-sea-green transition-colors">AI Threads</Link></li>
+                            <li><Link href="/resources/insights/whitepapers" className="hover:text-sea-green transition-colors">Whitepapers</Link></li>
+                            <li><Link href="/resources/insights/case-studies" className="hover:text-sea-green transition-colors">Case Studies</Link></li>
+                            <li><Link href="/resources/insights/webinars" className="hover:text-sea-green transition-colors">Webinars</Link></li>
+                            <li><Link href="/resources/assessment" className="hover:text-sea-green transition-colors">AI Assessment Tool</Link></li>
+                            <li><Link href="/resources/roi-calculator" className="hover:text-sea-green transition-colors">ROI Calculator</Link></li>
                         </ul>
                     </div>
 
@@ -70,13 +68,9 @@ export function Footer() {
                             <li><Link href="/about/team" className="hover:text-sea-green transition-colors">Our Team</Link></li>
                             <li><Link href="/careers" className="hover:text-sea-green transition-colors">Careers</Link></li>
                             <li><Link href="/about/partnerships" className="hover:text-sea-green transition-colors">Partnerships</Link></li>
-                            <li><Link href="/news" className="hover:text-sea-green transition-colors">News</Link></li>
+                            <li><Link href="/threads" className="hover:text-sea-green transition-colors">News</Link></li>
                             <li><Link href="/contact" className="hover:text-sea-green transition-colors">Contact</Link></li>
                         </ul>
-                        <div className="pt-4">
-                            <p className="text-sm text-pearl/60 mb-2">hello@attercop.com</p>
-                            <p className="text-sm text-pearl/60">Brighton • London</p>
-                        </div>
                     </div>
                 </div>
 
@@ -97,11 +91,11 @@ export function Footer() {
                                 Cookie Policy
                             </Link>
                             <div className="flex items-center gap-3 ml-4">
+                                <Link href="mailto:hello@attercop.com" className="text-pearl/40 hover:text-sea-green transition-colors">
+                                    <Mail className="w-5 h-5" />
+                                </Link>
                                 <Link href="https://linkedin.com/company/attercop" target="_blank" rel="noopener noreferrer" className="text-pearl/40 hover:text-sea-green transition-colors">
                                     <Linkedin className="w-5 h-5" />
-                                </Link>
-                                <Link href="https://twitter.com/attercop" target="_blank" rel="noopener noreferrer" className="text-pearl/40 hover:text-sea-green transition-colors">
-                                    <Twitter className="w-5 h-5" />
                                 </Link>
                             </div>
                         </div>

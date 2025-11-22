@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/purity */
 "use client"
 
 import { Canvas, useFrame } from "@react-three/fiber"
@@ -10,9 +11,7 @@ function Network({ count = 40, radius = 4 }) {
     const linesRef = useRef<THREE.LineSegments>(null)
     const groupRef = useRef<THREE.Group>(null)
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     const { positions, colors, lineIndices } = useMemo(() => {
-        // eslint-disable-next-line react-hooks/purity
         const positions = new Float32Array(count * 3)
         const colors = new Float32Array(count * 3)
         const indices: number[] = []

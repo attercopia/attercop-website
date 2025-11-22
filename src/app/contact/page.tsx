@@ -72,7 +72,7 @@ export default function ContactPage() {
                                 </div>
                                 <div>
                                     <h3 className="font-semibold text-midnight mb-1">Email Us</h3>
-                                    <p className="text-midnight/70">graeme@attercop.com</p>
+                                    <p className="text-midnight/70">hello@attercop.com</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-4">
@@ -80,10 +80,12 @@ export default function ContactPage() {
                                     <MapPin className="w-6 h-6 text-deep-teal" />
                                 </div>
                                 <div>
-                                    <h3 className="font-semibold text-midnight mb-1">Location</h3>
+                                    <h3 className="font-semibold text-midnight mb-1">Locations</h3>
                                     <p className="text-midnight/70">
                                         Brighton, United Kingdom<br />
-                                        Serving clients globally
+                                        London, United Kingdom<br />
+                                        Málaga, Spain<br />
+                                        Skopje, North Macedonia
                                     </p>
                                 </div>
                             </div>

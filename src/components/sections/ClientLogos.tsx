@@ -7,6 +7,7 @@ interface Client {
   website: string
   logo?: string
   category: 'pe' | 'business' | 'life-sciences'
+  invertLogo?: boolean // Flag for logos that need inversion (white/light logos)
 }
 
 interface ClientLogosProps {
@@ -25,7 +26,8 @@ const clients: Record<string, Client> = {
     name: "Growth Capital Partners",
     website: "https://growthcapital.co.uk",
     logo: "/clients/growth-capital-logo.svg",
-    category: 'pe'
+    category: 'pe',
+    invertLogo: true // Yellow logo needs inversion
   },
   'yfm': {
     name: "YFM Equity Partners",
@@ -55,13 +57,15 @@ const clients: Record<string, Client> = {
     name: "Bridewell",
     website: "https://bridewell.com",
     logo: "/clients/bridewell-logo.svg",
-    category: 'business'
+    category: 'business',
+    invertLogo: true // White logo needs inversion
   },
   'brightlocal': {
     name: "BrightLocal",
     website: "https://brightlocal.com",
     logo: "/clients/brightlocal-logo.png",
-    category: 'business'
+    category: 'business',
+    invertLogo: true // Bright green logo needs inversion
   },
   'flint-global': {
     name: "Flint Global",
@@ -109,7 +113,8 @@ const clients: Record<string, Client> = {
     name: "Prime Global",
     website: "https://primeglobal.com",
     logo: "/clients/prime-global-logo.png",
-    category: 'life-sciences'
+    category: 'life-sciences',
+    invertLogo: true // Light blue logo needs inversion
   },
   'ampersand-health': {
     name: "Ampersand Health",
@@ -191,7 +196,7 @@ export function ClientLogos({ variant = 'homepage', title }: ClientLogosProps) {
                     alt={`${client.name} logo`}
                     width={200}
                     height={70}
-                    className="h-auto w-auto max-h-[60px] md:max-h-[70px] max-w-[160px] md:max-w-[200px] object-contain filter grayscale invert opacity-60 group-hover:grayscale-0 group-hover:invert-0 group-hover:opacity-100 transition-all duration-300"
+                    className={`h-auto w-auto max-h-[60px] md:max-h-[70px] max-w-[160px] md:max-w-[200px] object-contain filter grayscale ${client.invertLogo ? 'invert' : ''} opacity-60 group-hover:grayscale group-hover:opacity-100 transition-all duration-300`}
                     unoptimized
                   />
                 </div>

@@ -388,7 +388,7 @@ export default function PEFirmsPage() {
                             </p>
                         </div>
                         <Button variant="outline" className="hidden md:flex" asChild>
-                            <Link href="/case-studies">View All Case Studies</Link>
+                            <Link href="/resources/insights/case-studies">View All Case Studies</Link>
                         </Button>
                     </div>
 
@@ -422,7 +422,7 @@ export default function PEFirmsPage() {
                             <h3 className="font-bold mb-2">Portfolio AI Assessment</h3>
                             <p className="text-sm text-pearl/70 mb-4">Evaluate AI maturity across portfolio</p>
                             <Button variant="outline" className="w-full border-white text-white hover:bg-white hover:text-midnight" asChild>
-                                <Link href="/assessment">Start Assessment</Link>
+                                <Link href="/resources/assessment">Start Assessment</Link>
                             </Button>
                         </div>
                         <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">

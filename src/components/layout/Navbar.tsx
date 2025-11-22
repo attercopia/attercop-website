@@ -117,6 +117,12 @@ export function Navbar() {
                             )}
                         </div>
                     ))}
+                    <Link
+                        href="/threads"
+                        className="px-3 py-2 transition-colors hover:text-deep-teal/80 text-foreground/80"
+                    >
+                        Threads
+                    </Link>
                     <Button variant="default" size="sm" className="ml-2" asChild>
                         <Link href="/contact">Contact Us</Link>
                     </Button>
@@ -163,6 +169,13 @@ export function Navbar() {
                                 </div>
                             </div>
                         ))}
+                        <Link
+                            href="/threads"
+                            className="block rounded-md px-3 py-2 text-base font-medium text-foreground hover:bg-accent hover:text-accent-foreground"
+                            onClick={() => setIsOpen(false)}
+                        >
+                            Threads
+                        </Link>
                         <div className="px-3 py-2">
                             <Button className="w-full" asChild onClick={() => setIsOpen(false)}>
                                 <Link href="/contact">Contact Us</Link>

@@ -3,6 +3,8 @@ import sgMail from '@sendgrid/mail';
 
 export async function POST(request: Request) {
     const apiKey = process.env.SENDGRID_API_KEY;
+    const fromEmail = process.env.SENDGRID_FROM_EMAIL || 'website@attercop.com';
+    const toEmail = process.env.SENDGRID_TO_EMAIL || 'graeme.cox@attercop.com';
 
     if (!apiKey) {
         return NextResponse.json(
@@ -26,8 +28,8 @@ export async function POST(request: Request) {
         }
 
         const msg = {
-            to: 'graeme@attercop.com', // Defaulting to a likely address, or I should ask. For now I'll use a placeholder or the user's email if I knew it. I'll use a generic one and let the user know.
-            from: 'graeme@attercop.com', // This needs to be a verified sender. I'll use the same as TO for now.
+            to: toEmail,
+            from: fromEmail,
             replyTo: email,
             subject: `New Contact Form Submission from ${name}`,
             text: `
