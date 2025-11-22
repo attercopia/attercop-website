@@ -1,5 +1,7 @@
 "use client"
 
+import Image from "next/image"
+
 interface Client {
   name: string
   website: string
@@ -40,7 +42,7 @@ const clients: Record<string, Client> = {
   'exponent': {
     name: "Exponent Private Equity",
     website: "https://exponentpe.com",
-    logo: "/clients/exponent-logo.svg",
+    logo: "/clients/exponent-logo.jpg",
     category: 'pe'
   },
   'london-city-airport': {
@@ -58,7 +60,7 @@ const clients: Record<string, Client> = {
   'brightlocal': {
     name: "BrightLocal",
     website: "https://brightlocal.com",
-    logo: "/clients/brightlocal-logo.svg",
+    logo: "/clients/brightlocal-logo.png",
     category: 'business'
   },
   'flint-global': {
@@ -82,7 +84,7 @@ const clients: Record<string, Client> = {
   'verdantix': {
     name: "Verdantix",
     website: "https://verdantix.com",
-    logo: "/clients/verdantix-logo.png",
+    logo: "/clients/verdantix-logo.svg",
     category: 'business'
   },
   'xeinadin': {
@@ -106,13 +108,13 @@ const clients: Record<string, Client> = {
   'prime-global': {
     name: "Prime Global",
     website: "https://primeglobal.com",
-    logo: "/clients/prime-global-logo.svg",
+    logo: "/clients/prime-global-logo.png",
     category: 'life-sciences'
   },
   'ampersand-health': {
     name: "Ampersand Health",
     website: "https://ampersandhealth.co.uk",
-    logo: "/clients/ampersand-health-logo.svg",
+    logo: "/clients/ampersand-health-logo.png",
     category: 'life-sciences'
   }
 }
@@ -173,21 +175,29 @@ export function ClientLogos({ variant = 'homepage', title }: ClientLogosProps) {
           {title || defaultTitle}
         </h2>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-x-12 gap-y-8 md:gap-x-16 md:gap-y-12 max-w-5xl mx-auto items-center">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-x-12 gap-y-10 md:gap-x-[60px] md:gap-y-10 max-w-6xl mx-auto items-center">
           {displayClients.map((client) => (
             <a
               key={client.name}
               href={client.website}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center justify-center transition-all duration-300 hover:scale-105"
+              className="group flex items-center justify-center p-4 transition-all duration-300 ease-in-out hover:scale-105"
             >
               {client.logo ? (
-                <img
-                  src={client.logo}
-                  alt={`${client.name} logo`}
-                  className="max-h-16 md:max-h-20 w-auto max-w-[180px] md:max-w-[200px] object-contain grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300"
-                />
+                <div className="relative h-[60px] md:h-[70px] w-[160px] md:w-[200px] flex items-center justify-center">
+                  <Image
+                    src={client.logo}
+                    alt={`${client.name} logo`}
+                    width={200}
+                    height={70}
+                    className="h-auto w-auto max-h-[60px] md:max-h-[70px] max-w-[160px] md:max-w-[200px] object-contain filter grayscale brightness-0 opacity-40 group-hover:grayscale-0 group-hover:brightness-100 group-hover:opacity-100 transition-all duration-300"
+                    style={{
+                      mixBlendMode: 'multiply',
+                    }}
+                    unoptimized
+                  />
+                </div>
               ) : (
                 <div className="text-center px-4">
                   <span className="font-heading text-lg md:text-xl text-midnight/60 group-hover:text-midnight transition-colors duration-300">
