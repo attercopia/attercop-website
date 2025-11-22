@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Linkedin, Mail } from "lucide-react"
+import { CookieSettingsButton } from "@/components/CookieSettingsButton"
 
 export function Footer() {
     return (
@@ -90,17 +91,7 @@ export function Footer() {
                             <Link href="/cookies" className="text-sm text-pearl/40 hover:text-pearl transition-colors">
                                 Cookie Policy
                             </Link>
-                            <button
-                                onClick={() => {
-                                    if (typeof window !== 'undefined') {
-                                        localStorage.removeItem('attercop_cookie_consent')
-                                        window.location.reload()
-                                    }
-                                }}
-                                className="text-sm text-pearl/40 hover:text-pearl transition-colors cursor-pointer"
-                            >
-                                Cookie Settings
-                            </button>
+                            <CookieSettingsButton />
                             <div className="flex items-center gap-3">
                                 <Link href="mailto:hello@attercop.com" className="text-pearl/40 hover:text-sea-green transition-colors">
                                     <Mail className="w-5 h-5" />
