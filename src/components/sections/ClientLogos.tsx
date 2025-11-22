@@ -191,10 +191,7 @@ export function ClientLogos({ variant = 'homepage', title }: ClientLogosProps) {
                     alt={`${client.name} logo`}
                     width={200}
                     height={70}
-                    className="h-auto w-auto max-h-[60px] md:max-h-[70px] max-w-[160px] md:max-w-[200px] object-contain filter grayscale brightness-0 opacity-40 group-hover:grayscale-0 group-hover:brightness-100 group-hover:opacity-100 transition-all duration-300"
-                    style={{
-                      mixBlendMode: 'multiply',
-                    }}
+                    className="h-auto w-auto max-h-[60px] md:max-h-[70px] max-w-[160px] md:max-w-[200px] object-contain filter grayscale invert opacity-60 group-hover:grayscale-0 group-hover:invert-0 group-hover:opacity-100 transition-all duration-300"
                     unoptimized
                   />
                 </div>
