@@ -1034,3 +1034,15 @@ Focus on PE-specific value and outcomes
 
 *Last Updated: November 2024*
 *Version: 2.0*
+
+## Client Logos Section
+
+### PE Firms Page Client List (5 logos)
+1. **Montagu Private Equity** (montagu.com)
+2. **Growth Capital Partners** (growthcapital.co.uk)  
+3. **YFM Equity Partners** (yfmep.com)
+4. **KKR** (kkr.com)
+5. **Exponent Private Equity** (exponentpe.com)
+
+Display with same specifications as homepage: 3-column grid, greyscale with color hover, Pearl background.
+

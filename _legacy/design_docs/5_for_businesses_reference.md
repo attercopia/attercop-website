@@ -1247,3 +1247,18 @@ Other Sections: Services | For PE Firms | For Life Sciences
 
 *Last Updated: November 2024*
 *Version: 2.0*
+
+## Client Logos Section
+
+### Businesses Page Client List (8 logos)
+1. **London City Airport**
+2. **Bridewell**
+3. **BrightLocal**
+4. **Flint Global**
+5. **Hippo Digital**
+6. **Plandek**
+7. **Verdantix**
+8. **Xeinadin**
+
+Display with same specifications as homepage: 3-column grid desktop, 2-column mobile, greyscale with color hover, Pearl background.
+

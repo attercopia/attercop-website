@@ -1,4 +1,5 @@
 import { PageHero } from "@/components/sections/page-hero"
+import { ClientLogos } from "@/components/sections/ClientLogos"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
@@ -56,6 +57,9 @@ export default function LifeSciencesPage() {
                     </div>
                 </div>
             </section>
+
+            {/* Client Logos */}
+            <ClientLogos variant="life-sciences" />
 
             <section className="py-24 bg-midnight text-white">
                 <div className="container mx-auto px-4 text-center">

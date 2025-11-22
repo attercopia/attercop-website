@@ -1,6 +1,7 @@
 import { PageHero } from "@/components/sections/page-hero"
 import { FAQSection } from "@/components/sections/faq-section"
 import { CaseStudyCard } from "@/components/ui/case-study-card"
+import { ClientLogos } from "@/components/sections/ClientLogos"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Brain, Zap, Heart, TrendingUp, CheckCircle2 } from "lucide-react"
 import Link from "next/link"
@@ -685,8 +686,11 @@ export default function PortfolioPage() {
                 </div>
             </section>
 
+            {/* Client Logos */}
+            <ClientLogos variant="businesses" />
+
             {/* Case Studies */}
-            <section className="py-24 bg-pearl">
+            <section className="py-24 bg-white">
                 <div className="container mx-auto px-4">
                     <div className="flex justify-between items-end mb-12">
                         <div>

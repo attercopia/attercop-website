@@ -682,3 +682,14 @@ Insights
 
 *Last Updated: November 2024*
 *Version: 3.0 - Revised for accuracy*
+
+## Client Logos Section
+
+### Life Sciences Page Client List (4 logos)
+1. **Coriolis Pharma** (coriolis-pharma.com)
+2. **Envision Pharma** (envisionpharma.com)
+3. **Prime Global** (primeglobal.com)
+4. **Ampersand Health** (ampersandhealth.co.uk)
+
+Display with same specifications as homepage: 2-column grid, greyscale with color hover, Pearl background.
+
