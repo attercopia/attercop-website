@@ -15,30 +15,32 @@ export function NewsletterSignup() {
         setMessage("")
 
         try {
-            // Send AI Threads mailing list signup via SendGrid
-            const response = await fetch("/api/send-email", {
+            // Subscribe to AI Threads mailing list
+            const response = await fetch("/api/subscribe", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
                 },
                 body: JSON.stringify({
-                    name: "AI Threads Subscriber",
                     email: email,
-                    message: `New AI Threads mailing list signup from: ${email}`,
-                    subject: "New AI Threads Mailing List Signup"
                 }),
             })
 
+            const data = await response.json()
+
             if (!response.ok) {
-                throw new Error("Failed to subscribe")
+                throw new Error(data.error || "Failed to subscribe")
             }
 
             setStatus("success")
-            setMessage("Thanks for subscribing to AI Threads! You'll receive monthly insights on AI strategy and innovation.")
+            setMessage("Thanks for subscribing! Please check your email to confirm your subscription.")
             setEmail("")
         } catch (error) {
             setStatus("error")
-            setMessage("Something went wrong. Please try again or contact us at hello@attercop.com")
+            const errorMsg = error instanceof Error ? error.message : "Something went wrong"
+            setMessage(errorMsg === "This email is already subscribed"
+                ? "This email is already subscribed to AI Threads."
+                : "Something went wrong. Please try again or contact us at hello@attercop.com")
             console.error("Newsletter signup error:", error)
         }
     }
@@ -61,7 +63,7 @@ export function NewsletterSignup() {
                         placeholder="Enter your email"
                         required
                         disabled={status === "loading"}
-                        className="flex-1 px-6 py-4 rounded-lg text-midnight focus:outline-none focus:ring-2 focus:ring-sea-green"
+                        className="flex-1 px-6 py-4 rounded-lg bg-white text-midnight placeholder:text-midnight/50 focus:outline-none focus:ring-2 focus:ring-sea-green disabled:opacity-50"
                     />
                     <Button
                         type="submit"
