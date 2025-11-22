@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { CookieSettingsButton } from '@/components/CookieSettingsButton'
 
 export const metadata: Metadata = {
     title: 'Cookie Policy | Attercop',
@@ -163,17 +164,9 @@ export default function CookiesPage() {
                                 <p className="text-midnight/80 mb-4">
                                     You can change your cookie preferences at any time by clicking the button below or the &quot;Cookie Settings&quot; link in our footer.
                                 </p>
-                                <button
-                                    onClick={() => {
-                                        if (typeof window !== 'undefined') {
-                                            localStorage.removeItem('attercop_cookie_consent')
-                                            window.location.reload()
-                                        }
-                                    }}
-                                    className="bg-sea-green hover:bg-sea-green/90 text-white px-6 py-2 rounded-lg font-semibold transition-colors"
-                                >
+                                <CookieSettingsButton className="bg-sea-green hover:bg-sea-green/90 text-white px-6 py-2 rounded-lg font-semibold transition-colors">
                                     Update Cookie Preferences
-                                </button>
+                                </CookieSettingsButton>
                             </div>
 
                             <h3 className="font-display text-xl font-semibold text-midnight mb-3">4.2 Browser Settings</h3>

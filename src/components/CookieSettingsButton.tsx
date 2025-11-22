@@ -1,6 +1,11 @@
 "use client"
 
-export function CookieSettingsButton() {
+interface CookieSettingsButtonProps {
+    className?: string
+    children?: React.ReactNode
+}
+
+export function CookieSettingsButton({ className, children }: CookieSettingsButtonProps) {
     const handleClick = () => {
         if (typeof window !== 'undefined') {
             localStorage.removeItem('attercop_cookie_consent')
@@ -11,9 +16,9 @@ export function CookieSettingsButton() {
     return (
         <button
             onClick={handleClick}
-            className="text-sm text-pearl/40 hover:text-pearl transition-colors cursor-pointer"
+            className={className || "text-sm text-pearl/40 hover:text-pearl transition-colors cursor-pointer"}
         >
-            Cookie Settings
+            {children || "Cookie Settings"}
         </button>
     )
 }
