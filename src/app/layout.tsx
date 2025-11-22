@@ -31,6 +31,9 @@ const sourceSans = Source_Sans_3({
 export const metadata: Metadata = {
   title: "Attercop | Knowledge-Backed, Agentic AI",
   description: "Knowledge-Backed, Agentic AI for PE-Backed Mid-Market Firms",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
