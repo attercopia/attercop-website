@@ -30,7 +30,7 @@ export default function ServicesPage() {
             <Section>
                 <SectionHeader
                     title="Comprehensive AI Capabilities"
-                    description="Full-service AI delivery from strategy through to production deployment and ongoing optimization."
+                    description="Full-service AI delivery from strategy through to production deployment and ongoing optimisation."
                 />
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
@@ -52,7 +52,7 @@ export default function ServicesPage() {
 
             <CallToAction
                 title="Ready to Transform Your Business?"
-                description="Let's discuss how we can help drive AI value for your organization."
+                description="Let's discuss how we can help drive AI value for your organisation."
                 primaryAction={{ text: "Get Started", href: "/contact" }}
             />
         </main>

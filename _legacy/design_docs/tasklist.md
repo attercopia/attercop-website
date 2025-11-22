@@ -38,6 +38,20 @@ This task list represents the complete build requirements for the Attercop websi
 ## Recent Completions
 
 ### 2025-11-22 (Session 5 - continued)
+- ✅ **Current Openings Career Page - COMPLETE**
+  - Created `/careers/current-openings` page based on attercop.com/current-openings
+  - Current status: No openings available (as per live site)
+  - Sections included:
+    - Hero with stats (Remote work, Brighton & London, 100% English required, No agencies)
+    - Current status card (no openings with contact CTA)
+    - "What We Look For" section (5 key qualities: Production-First, AI Expertise, Business Acumen, English, Self-Direction)
+    - "Working at Attercop" section (3 benefits cards)
+    - Important Information (English requirement, No agencies)
+    - Get in Touch CTA (hello@attercop.com)
+  - Updated careers page links (2 CTAs) to point to `/careers/current-openings`
+  - Professional layout matching design system
+  - Ready to add job listings when positions open
+
 - ✅ **Conversational AI Service Page - COMPLETE**
   - Comprehensive 685-line implementation based on detailed specification document
   - 11 major sections with professional design:

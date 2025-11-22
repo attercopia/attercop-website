@@ -2,7 +2,7 @@ import { PageHero } from "@/components/sections/page-hero"
 import { FAQSection } from "@/components/sections/faq-section"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { GitBranch, Lock, Building2, MessageSquare, Shield, Network, Cpu, Database, Globe, CheckCircle2, XCircle, ArrowRight } from "lucide-react"
+import { GitBranch, Lock, Building2, MessageSquare, Shield, Cpu, Database, CheckCircle2, XCircle, ArrowRight } from "lucide-react"
 
 export const metadata = {
     title: "Conversational AI Development | Flow Framework | Attercop",

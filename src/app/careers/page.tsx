@@ -83,7 +83,7 @@ export default function CareersPage() {
                             Come and join us and take your career to new heights at Attercop. There&apos;s no better time to be on board with us.
                         </p>
                         <Button size="lg" className="bg-sea-green hover:bg-deep-teal text-white" asChild>
-                            <Link href="/current-openings">
+                            <Link href="/careers/current-openings">
                                 See New Openings <ArrowRight className="ml-2 w-5 h-5" />
                             </Link>
                         </Button>
@@ -176,7 +176,7 @@ export default function CareersPage() {
                             Ready to join our team? Check out our current openings and take the next step in your career.
                         </p>
                         <Button size="lg" className="bg-sea-green hover:bg-deep-teal text-white" asChild>
-                            <Link href="/current-openings">
+                            <Link href="/careers/current-openings">
                                 View Open Positions <ArrowRight className="ml-2 w-5 h-5" />
                             </Link>
                         </Button>
