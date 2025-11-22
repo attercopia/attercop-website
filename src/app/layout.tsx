@@ -38,9 +38,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${sora.variable} ${inter.variable} ${interTight.variable} ${sourceSans.variable} antialiased bg-pearl text-midnight font-body`}
+        suppressHydrationWarning
       >
         <Navbar />
         {children}
