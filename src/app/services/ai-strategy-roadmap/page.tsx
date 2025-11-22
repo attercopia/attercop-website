@@ -186,10 +186,7 @@ export default function AIStrategyRoadmapPage() {
                                         <span className="text-sm text-midnight/60">Timeline:</span>
                                         <span className="font-semibold text-midnight">6-8 weeks</span>
                                     </div>
-                                    <div className="flex justify-between items-center mb-2">
-                                        <span className="text-sm text-midnight/60">Investment:</span>
-                                        <span className="font-semibold text-midnight">From £50,000</span>
-                                    </div>
+
                                     <div className="flex justify-between items-center">
                                         <span className="text-sm text-midnight/60">Ideal For:</span>
                                         <span className="font-semibold text-midnight">Enterprise transformation</span>
@@ -243,10 +240,7 @@ export default function AIStrategyRoadmapPage() {
                                         <span className="text-sm text-midnight/60">Timeline:</span>
                                         <span className="font-semibold text-midnight">2-3 weeks</span>
                                     </div>
-                                    <div className="flex justify-between items-center mb-2">
-                                        <span className="text-sm text-midnight/60">Investment:</span>
-                                        <span className="font-semibold text-midnight">From £15,000</span>
-                                    </div>
+
                                     <div className="flex justify-between items-center">
                                         <span className="text-sm text-midnight/60">Ideal For:</span>
                                         <span className="font-semibold text-midnight">Quick strategic clarity</span>
